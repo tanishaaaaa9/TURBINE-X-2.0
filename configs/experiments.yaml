@@ -1,0 +1,27 @@
+# TURBINE-X Experiments Configuration
+random_seed: 42
+split:
+  development_years: [2011, 2012, 2013]
+  calibration_year: 2014
+  locked_test_year: 2015
+
+uncertainty:
+  nominal_conformal_alpha: 0.10
+  coverage_target: 0.90
+
+optimization:
+  optuna:
+    n_trials: 15
+    sampler: "TPE"
+  flaml:
+    time_budget_sec: 20
+    metric: "rmse"
+
+tracks:
+  Track_A_emissions:
+    features: ["AT", "AP", "AH", "AFDP", "GTEP", "TIT", "TAT", "TEY", "CDP"]
+    targets: ["CO", "NOX"]
+  Track_B_joint:
+    features: ["AT", "AP", "AH", "AFDP", "GTEP", "TIT", "TAT", "CDP"]
+    targets: ["CO", "NOX", "TEY"]
+

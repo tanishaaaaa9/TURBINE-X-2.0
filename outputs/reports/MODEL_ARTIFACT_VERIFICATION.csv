@@ -1,0 +1,25 @@
+track,model,file_exists,file_size_bytes,load_success,pred_success,pipeline_type,expected_input_features,expected_output_targets,prediction_shape,contains_nan,contains_inf,artifact_rel_path
+A_emissions,Dummy_mean,True,1931,True,True,Pipeline(preprocessor->model),9,2,"(7384, 2)",False,False,artifacts\models\A_emissions\Dummy_mean.joblib
+A_emissions,LinearRegression,True,2717,True,True,Pipeline(preprocessor->model),9,2,"(7384, 2)",False,False,artifacts\models\A_emissions\LinearRegression.joblib
+A_emissions,Ridge,True,2589,True,True,Pipeline(preprocessor->model),9,2,"(7384, 2)",False,False,artifacts\models\A_emissions\Ridge.joblib
+A_emissions,Lasso,True,2970,True,True,Pipeline(preprocessor->model),9,2,"(7384, 2)",False,False,artifacts\models\A_emissions\Lasso.joblib
+A_emissions,ElasticNet,True,2970,True,True,Pipeline(preprocessor->model),9,2,"(7384, 2)",False,False,artifacts\models\A_emissions\ElasticNet.joblib
+A_emissions,DecisionTree,True,186076,True,True,Pipeline(preprocessor->model),9,2,"(7384, 2)",False,False,artifacts\models\A_emissions\DecisionTree.joblib
+A_emissions,RandomForest,True,244705380,True,True,Pipeline(preprocessor->model),9,2,"(7384, 2)",False,False,artifacts\models\A_emissions\RandomForest.joblib
+A_emissions,ExtraTrees,True,376790018,True,True,Pipeline(preprocessor->model),9,2,"(7384, 2)",False,False,artifacts\models\A_emissions\ExtraTrees.joblib
+A_emissions,HistGradientBoosting,True,1786086,True,True,Pipeline(preprocessor->model),9,2,"(7384, 2)",False,False,artifacts\models\A_emissions\HistGradientBoosting.joblib
+A_emissions,XGBoost,True,1739126,True,True,Pipeline(preprocessor->model),9,2,"(7384, 2)",False,False,artifacts\models\A_emissions\XGBoost.joblib
+A_emissions,CatBoost,True,686773,True,True,Pipeline(preprocessor->model),9,2,"(7384, 2)",False,False,artifacts\models\A_emissions\CatBoost.joblib
+A_emissions,KNN,True,3911344,True,True,Pipeline(preprocessor->model),9,2,"(7384, 2)",False,False,artifacts\models\A_emissions\KNN.joblib
+B_joint,Dummy_mean,True,2112,True,True,Pipeline(preprocessor->model),8,3,"(7384, 3)",False,False,artifacts\models\B_joint\Dummy_mean.joblib
+B_joint,LinearRegression,True,2842,True,True,Pipeline(preprocessor->model),8,3,"(7384, 3)",False,False,artifacts\models\B_joint\LinearRegression.joblib
+B_joint,Ridge,True,2730,True,True,Pipeline(preprocessor->model),8,3,"(7384, 3)",False,False,artifacts\models\B_joint\Ridge.joblib
+B_joint,Lasso,True,3271,True,True,Pipeline(preprocessor->model),8,3,"(7384, 3)",False,False,artifacts\models\B_joint\Lasso.joblib
+B_joint,ElasticNet,True,3271,True,True,Pipeline(preprocessor->model),8,3,"(7384, 3)",False,False,artifacts\models\B_joint\ElasticNet.joblib
+B_joint,DecisionTree,True,224073,True,True,Pipeline(preprocessor->model),8,3,"(7384, 3)",False,False,artifacts\models\B_joint\DecisionTree.joblib
+B_joint,RandomForest,True,268949935,True,True,Pipeline(preprocessor->model),8,3,"(7384, 3)",False,False,artifacts\models\B_joint\RandomForest.joblib
+B_joint,ExtraTrees,True,411199117,True,True,Pipeline(preprocessor->model),8,3,"(7384, 3)",False,False,artifacts\models\B_joint\ExtraTrees.joblib
+B_joint,HistGradientBoosting,True,3089113,True,True,Pipeline(preprocessor->model),8,3,"(7384, 3)",False,False,artifacts\models\B_joint\HistGradientBoosting.joblib
+B_joint,XGBoost,True,2671839,True,True,Pipeline(preprocessor->model),8,3,"(7384, 3)",False,False,artifacts\models\B_joint\XGBoost.joblib
+B_joint,CatBoost,True,1029442,True,True,Pipeline(preprocessor->model),8,3,"(7384, 3)",False,False,artifacts\models\B_joint\CatBoost.joblib
+B_joint,KNN,True,3717557,True,True,Pipeline(preprocessor->model),8,3,"(7384, 3)",False,False,artifacts\models\B_joint\KNN.joblib

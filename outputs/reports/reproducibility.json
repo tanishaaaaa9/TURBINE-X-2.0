@@ -1,0 +1,13 @@
+{
+  "system": {
+    "os": "Windows",
+    "python": "3.13.14"
+  },
+  "random_seed": 42,
+  "splits": {
+    "dev": "2011-2013",
+    "cal": "2014",
+    "locked_test": "2015"
+  },
+  "status": "REPRODUCIBLE"
+}

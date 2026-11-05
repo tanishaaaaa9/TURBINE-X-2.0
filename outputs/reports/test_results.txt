@@ -1,0 +1,27 @@
+[1m============================= test session starts =============================[0m
+platform win32 -- Python 3.13.14, pytest-9.2.0, pluggy-1.7.0 -- D:\TURBINE_X_Full_Project\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\TURBINE_X_Full_Project\TURBINE_X_Full_Project
+plugins: anyio-4.16.0, platformdirs-4.14.5
+[1mcollecting ... [0mcollected 18 items
+
+tests/test_app_smoke.py::test_model_artifacts_load_and_predict [32mPASSED[0m[32m    [  5%][0m
+tests/test_data.py::test_project_root_discovery [32mPASSED[0m[32m                   [ 11%][0m
+tests/test_data.py::test_yearly_row_counts [32mPASSED[0m[32m                        [ 16%][0m
+tests/test_data.py::test_load_all_yearly_data [32mPASSED[0m[32m                     [ 22%][0m
+tests/test_data.py::test_validate_schema_passing [32mPASSED[0m[32m                  [ 27%][0m
+tests/test_evaluation.py::test_regression_metrics_calculation [32mPASSED[0m[32m     [ 33%][0m
+tests/test_evaluation.py::test_conformal_quantiles_and_intervals [32mPASSED[0m[32m  [ 38%][0m
+tests/test_features.py::test_track_a_features_include_tey [32mPASSED[0m[32m         [ 44%][0m
+tests/test_features.py::test_track_b_features_strictly_exclude_tey [32mPASSED[0m[32m [ 50%][0m
+tests/test_features.py::test_compute_domain_features [32mPASSED[0m[32m              [ 55%][0m
+tests/test_models.py::test_model_factory_creation [32mPASSED[0m[32m                 [ 61%][0m
+tests/test_models.py::test_multioutput_prediction_shape [32mPASSED[0m[32m           [ 66%][0m
+tests/test_models.py::test_model_registry_quick_and_full [32mPASSED[0m[32m          [ 72%][0m
+tests/test_preprocessing.py::test_temporal_split_disjointness [32mPASSED[0m[32m     [ 77%][0m
+tests/test_preprocessing.py::test_preprocessor_pipeline_fit_transform [32mPASSED[0m[32m [ 83%][0m
+tests/test_schema.py::test_each_year_schema_and_missingness [32mPASSED[0m[32m       [ 88%][0m
+tests/test_tracker.py::test_registry_has_unique_ids [32mPASSED[0m[32m               [ 94%][0m
+tests/test_tracker.py::test_missing_expected_output_is_detected [32mPASSED[0m[32m   [100%][0m
+
+[32m============================= [32m[1m18 passed[0m[32m in 2.03s[0m[32m ==============================[0m

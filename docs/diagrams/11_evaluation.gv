@@ -1,0 +1,21 @@
+digraph "11_evaluation" {
+	bgcolor=white fontname=Arial fontsize=18 label="Evaluation Workflow" labelloc=t nodesep=0.35 pad=0.25 rankdir=TB ranksep=0.45
+	node [color="#315A7D" fillcolor="#EAF2F8" fontname=Arial fontsize=10 margin="0.12,0.08" shape=box style="rounded,filled"]
+	edge [arrowsize=0.7 color="#526777" fontname=Arial fontsize=8]
+	N0 [label="Frozen pipeline"]
+	N1 [label="2014 calibration"]
+	N2 [label="Conformal quantiles"]
+	N3 [label="2015 predictions"]
+	N4 [label="2015 interval assessment"]
+	N5 [label="Regression metrics"]
+	N6 [label="Coverage / width metrics"]
+	N7 [label="Final evaluation report"]
+	N0 -> N1
+	N1 -> N2
+	N0 -> N3
+	N2 -> N4
+	N3 -> N5
+	N4 -> N6
+	N5 -> N7
+	N6 -> N7
+}

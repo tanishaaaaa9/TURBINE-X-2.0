@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 920" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040D1A"/>
+      <stop offset="100%" stop-color="#091B33"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B203E"/>
+      <stop offset="100%" stop-color="#061426"/>
+    </linearGradient>
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FFFF"/>
+      <stop offset="100%" stop-color="#0077B6"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="920" rx="16" fill="url(#bg)" stroke="#16385C" stroke-width="2"/>
+
+  <!-- Title Section -->
+  <g transform="translate(60, 50)">
+    <rect x="0" y="0" width="180" height="26" rx="13" fill="#0B2240" stroke="#00FFFF" stroke-width="1"/>
+    <circle cx="14" cy="13" r="4" fill="#00FFFF" filter="url(#glow)"/>
+    <text x="26" y="17" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#90E0EF">SYSTEM TOPOLOGY</text>
+    <text x="0" y="55" font-family="'Segoe UI', sans-serif" font-size="28" font-weight="900" fill="#FFFFFF">TURBINE-X 2.0 Architectural Pipeline</text>
+    <text x="0" y="78" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="400" fill="#8FA4C4">End-to-End Data Ingestion, Multi-Task Machine Learning, Anomaly Detection, XAI, and Decision Serving</text>
+  </g>
+
+  <!-- Flow Block 1: Raw Data & Splitting -->
+  <g transform="translate(60, 150)">
+    <rect width="1080" height="100" rx="12" fill="url(#cardBg)" stroke="#00FFFF" stroke-width="1.2"/>
+    <rect x="20" y="16" width="30" height="30" rx="6" fill="#00FFFF" opacity="0.15"/>
+    <text x="35" y="36" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" fill="#00FFFF" text-anchor="middle">1</text>
+    <text x="65" y="32" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">DATA INGESTION &amp; TEMPORAL SPLITTING</text>
+    <text x="65" y="50" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="400" fill="#8FA4C4">UCI Gas Turbine Dataset (36,733 records, 11 physical sensor signals: AT, AP, AH, AFDP, GTEP, TIT, TAT, TEY, CDP, CO, NOX)</text>
+    
+    <!-- Split Pills -->
+    <rect x="65" y="62" width="280" height="24" rx="12" fill="#0E2D52" stroke="#0077B6" stroke-width="1"/>
+    <text x="75" y="78" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#90E0EF">Development Set (2011-2013, N=22,191)</text>
+
+    <rect x="360" y="62" width="250" height="24" rx="12" fill="#0E2D52" stroke="#0077B6" stroke-width="1"/>
+    <text x="370" y="78" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#90E0EF">Calibration Set (2014, N=7,158)</text>
+
+    <rect x="625" y="62" width="270" height="24" rx="12" fill="#0E2D52" stroke="#00FFFF" stroke-width="1.2"/>
+    <text x="635" y="78" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#00FFFF">Locked Test Set (2015, N=7,384)</text>
+  </g>
+
+  <!-- Flow Connector 1 -> 2 -->
+  <line x1="600" y1="250" x2="600" y2="280" stroke="#00FFFF" stroke-width="2" stroke-dasharray="4 4"/>
+  <polygon points="600,285 595,275 605,275" fill="#00FFFF"/>
+
+  <!-- Flow Block 2: Multi-Task Feature Engine -->
+  <g transform="translate(60, 290)">
+    <rect width="1080" height="90" rx="12" fill="url(#cardBg)" stroke="#16385C" stroke-width="1.2"/>
+    <rect x="20" y="14" width="30" height="30" rx="6" fill="#0077B6" opacity="0.2"/>
+    <text x="35" y="34" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" fill="#00FFFF" text-anchor="middle">2</text>
+    <text x="65" y="30" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">FEATURE PIPELINES &amp; OPERATIONAL RISK THRESHOLDING</text>
+    
+    <rect x="65" y="46" width="310" height="28" rx="8" fill="#07192F" stroke="#0077B6" stroke-width="1"/>
+    <text x="75" y="64" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="600" fill="#90E0EF">Track A: 9 Inputs (incl. TEY) -> CO, NOx</text>
+
+    <rect x="390" y="46" width="330" height="28" rx="8" fill="#07192F" stroke="#0077B6" stroke-width="1"/>
+    <text x="400" y="64" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="600" fill="#90E0EF">Track B: 8 Inputs (excl. TEY) -> CO, NOx, TEY</text>
+
+    <rect x="735" y="46" width="310" height="28" rx="8" fill="#07192F" stroke="#00FFFF" stroke-width="1"/>
+    <text x="745" y="64" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="600" fill="#00FFFF">Dev Empirical Risk Quantiles: Normal / Elevated / High</text>
+  </g>
+
+  <!-- Flow Connector 2 -> 3 -->
+  <line x1="600" y1="380" x2="600" y2="410" stroke="#00FFFF" stroke-width="2" stroke-dasharray="4 4"/>
+  <polygon points="600,415 595,405 605,405" fill="#00FFFF"/>
+
+  <!-- Flow Block 3: Multi-Task AI Modeling Core (4 Pillars) -->
+  <g transform="translate(60, 420)">
+    <!-- Pillar 1: Supervised Regression -->
+    <rect x="0" y="0" width="255" height="240" rx="10" fill="url(#cardBg)" stroke="#00FFFF" stroke-width="1.2"/>
+    <rect x="15" y="15" width="225" height="28" rx="6" fill="#0E2D52"/>
+    <text x="127" y="34" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#00FFFF" text-anchor="middle">SUPERVISED REGRESSION</text>
+    <text x="20" y="65" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">16 Algorithm Families (Track A/B)</text>
+    <text x="20" y="85" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• Linear, Ridge, Lasso, ElasticNet</text>
+    <text x="20" y="103" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• DecisionTree, Random Forest, ET</text>
+    <text x="20" y="121" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• HistGB, XGBoost, CatBoost, LightGBM</text>
+    <text x="20" y="139" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• SVR, KNN, MLP Neural Regressor</text>
+    <text x="20" y="157" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• Out-of-Fold Stacking &amp; Voting</text>
+    <rect x="20" y="185" width="215" height="35" rx="6" fill="#07192F" stroke="#00FFFF" stroke-width="0.8"/>
+    <text x="28" y="202" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="700" fill="#00FFFF">TOP: CatBoost (TEY R²=0.9984)</text>
+    <text x="28" y="215" font-family="'Segoe UI', sans-serif" font-size="9.5" font-weight="500" fill="#90E0EF">CO R²=0.6974 | Latency 0.001ms</text>
+
+    <!-- Pillar 2: Risk Classification -->
+    <rect x="275" y="0" width="255" height="240" rx="10" fill="url(#cardBg)" stroke="#0077B6" stroke-width="1.2"/>
+    <rect x="290" y="15" width="225" height="28" rx="6" fill="#0E2D52"/>
+    <text x="402" y="34" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#90E0EF" text-anchor="middle">RISK CLASSIFICATION</text>
+    <text x="295" y="65" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">14 Algorithm Families (CO/NOx)</text>
+    <text x="295" y="85" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• LogisticRegression (Balanced)</text>
+    <text x="295" y="103" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• Tree Classifiers (DT, RF, ET)</text>
+    <text x="295" y="121" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• Boosting (HistGB, XGB, CatB, LGBM)</text>
+    <text x="295" y="139" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• SVC (RBF Probabilistic), MLPClassifier</text>
+    <text x="295" y="157" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• Soft Voting &amp; Stacking Ensembles</text>
+    <rect x="295" y="185" width="215" height="35" rx="6" fill="#07192F" stroke="#0077B6" stroke-width="0.8"/>
+    <text x="303" y="202" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="700" fill="#90E0EF">TOP: StackingClassifier</text>
+    <text x="303" y="215" font-family="'Segoe UI', sans-serif" font-size="9.5" font-weight="500" fill="#C5D3E8">CO Acc 55.34% | Top-2 88.24%</text>
+
+    <!-- Pillar 3: Anomaly Detection -->
+    <rect x="550" y="0" width="255" height="240" rx="10" fill="url(#cardBg)" stroke="#0077B6" stroke-width="1.2"/>
+    <rect x="565" y="15" width="225" height="28" rx="6" fill="#0E2D52"/>
+    <text x="677" y="34" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#90E0EF" text-anchor="middle">UNSUPERVISED ANOMALY</text>
+    <text x="570" y="65" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">5 Health Monitors (Dev Ref ν=0.03)</text>
+    <text x="570" y="85" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• IsolationForest (5.74% Test)</text>
+    <text x="570" y="103" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• LocalOutlierFactor (34.98% Test)</text>
+    <text x="570" y="121" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• OneClassSVM RBF (15.33% Test)</text>
+    <text x="570" y="139" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• EllipticEnvelope (FastMCD Covariance)</text>
+    <text x="570" y="157" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• Deep Autoencoder (Bottleneck 16-6-16)</text>
+    <rect x="570" y="185" width="215" height="35" rx="6" fill="#07192F" stroke="#0077B6" stroke-width="0.8"/>
+    <text x="578" y="202" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="700" fill="#90E0EF">Shift: Inter-Year Covariate Drift</text>
+    <text x="578" y="215" font-family="'Segoe UI', sans-serif" font-size="9.5" font-weight="500" fill="#C5D3E8">Dev: 3.00% | Recalibrated: 3.01%</text>
+
+    <!-- Pillar 4: Forecasting & Deep Neural -->
+    <rect x="825" y="0" width="255" height="240" rx="10" fill="url(#cardBg)" stroke="#16385C" stroke-width="1.2"/>
+    <rect x="840" y="15" width="225" height="28" rx="6" fill="#0E2D52"/>
+    <text x="952" y="34" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#C5D3E8" text-anchor="middle">SEQUENTIAL &amp; NEURAL</text>
+    <text x="845" y="65" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">Sequence Baselines (h=1, 6, 24)</text>
+    <text x="845" y="85" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• Persistence Naive (y[t-1])</text>
+    <text x="845" y="103" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• Rolling Moving Average (w=6)</text>
+    <text x="845" y="121" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• Holt Exponential Smoothing</text>
+    <text x="845" y="139" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• Autoregressive Lag Ridge (p=12)</text>
+    <text x="845" y="157" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="#8FA4C4">• MLP (Adam, 0 warnings)</text>
+    <rect x="845" y="185" width="215" height="35" rx="6" fill="#07192F" stroke="#16385C" stroke-width="0.8"/>
+    <text x="853" y="202" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="700" fill="#8FA4C4">Note: Deep Sequence Models</text>
+    <text x="853" y="215" font-family="'Segoe UI', sans-serif" font-size="9.5" font-weight="500" fill="#6C757D">LSTM/GRU/Trans: NOT IMPLEMENTED</text>
+  </g>
+
+  <!-- Flow Connector 3 -> 4 -->
+  <line x1="600" y1="660" x2="600" y2="690" stroke="#00FFFF" stroke-width="2" stroke-dasharray="4 4"/>
+  <polygon points="600,695 595,685 605,685" fill="#00FFFF"/>
+
+  <!-- Flow Block 4: Evaluation, XAI & Governance -->
+  <g transform="translate(60, 700)">
+    <rect width="1080" height="85" rx="12" fill="url(#cardBg)" stroke="#16385C" stroke-width="1.2"/>
+    <text x="25" y="28" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">EVALUATION, EXPLAINABLE AI &amp; UNCERTAINTY QUANTIFICATION</text>
+    
+    <rect x="25" y="42" width="250" height="28" rx="6" fill="#07192F" stroke="#0077B6" stroke-width="0.8"/>
+    <text x="35" y="60" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#90E0EF">SHAP TreeExplainer Attributions</text>
+
+    <rect x="290" y="42" width="250" height="28" rx="6" fill="#07192F" stroke="#0077B6" stroke-width="0.8"/>
+    <text x="300" y="60" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#90E0EF">Conformal Prediction Intervals (90%)</text>
+
+    <rect x="555" y="42" width="240" height="28" rx="6" fill="#07192F" stroke="#0077B6" stroke-width="0.8"/>
+    <text x="565" y="60" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#90E0EF">Inference Latency &amp; Memory Audit</text>
+
+    <rect x="810" y="42" width="245" height="28" rx="6" fill="#07192F" stroke="#00FFFF" stroke-width="1"/>
+    <text x="820" y="60" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#00FFFF">36 Publication Figures (300 DPI)</text>
+  </g>
+
+  <!-- Flow Connector 4 -> 5 -->
+  <line x1="600" y1="785" x2="600" y2="810" stroke="#00FFFF" stroke-width="2" stroke-dasharray="4 4"/>
+  <polygon points="600,815 595,805 605,805" fill="#00FFFF"/>
+
+  <!-- Flow Block 5: Deployment & User Interface -->
+  <g transform="translate(60, 820)">
+    <rect width="1080" height="70" rx="12" fill="url(#cardBg)" stroke="#00FFFF" stroke-width="1.5"/>
+    <text x="30" y="28" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="800" fill="#00FFFF">STREAMLIT MULTI-TASK OPERATIONAL DASHBOARD (13 MODULES)</text>
+    <text x="30" y="50" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="400" fill="#C5D3E8">
+      Executive KPIs • Real-Time Telemetry Simulator • Interactive SHAP Explorer • Health Monitor • Multi-Horizon Forecast Studio
+    </text>
+  </g>
+</svg>

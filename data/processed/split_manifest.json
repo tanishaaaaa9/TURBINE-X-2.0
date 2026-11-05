@@ -1,0 +1,32 @@
+{
+  "development": {
+    "years": [
+      2011,
+      2012,
+      2013
+    ],
+    "rows": 22191,
+    "percentage": 60.41
+  },
+  "calibration": {
+    "years": [
+      2014
+    ],
+    "rows": 7158,
+    "percentage": 19.49
+  },
+  "locked_test": {
+    "years": [
+      2015
+    ],
+    "rows": 7384,
+    "percentage": 20.1
+  },
+  "leakage_audit": {
+    "disjoint_years": true,
+    "overlapping_years": [],
+    "train_rows": 22191,
+    "test_rows": 7384,
+    "leakage_detected": false
+  }
+}

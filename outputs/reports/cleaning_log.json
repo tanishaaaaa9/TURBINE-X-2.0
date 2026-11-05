@@ -1,0 +1,133 @@
+{
+  "initial_rows": 36733,
+  "final_rows": 36733,
+  "rows_removed": 0,
+  "operations": [
+    "Zero missing values verified across all columns.",
+    "Identified 7 duplicate records (retained to preserve natural sampling frequency).",
+    "Outliers flagged and retained without destructive clipping."
+  ],
+  "outlier_summary": {
+    "AT": {
+      "iqr_outliers_count": 1,
+      "iqr_outliers_pct": 0.0,
+      "z_score_3sigma_count": 27,
+      "z_score_3sigma_pct": 0.07,
+      "q25": 11.781,
+      "q75": 23.665,
+      "iqr": 11.883999999999999,
+      "min": -6.2348,
+      "max": 37.103
+    },
+    "AP": {
+      "iqr_outliers_count": 612,
+      "iqr_outliers_pct": 1.67,
+      "z_score_3sigma_count": 216,
+      "z_score_3sigma_pct": 0.59,
+      "q25": 1008.8,
+      "q75": 1017.0,
+      "iqr": 8.200000000000045,
+      "min": 985.85,
+      "max": 1036.6
+    },
+    "AH": {
+      "iqr_outliers_count": 132,
+      "iqr_outliers_pct": 0.36,
+      "z_score_3sigma_count": 75,
+      "z_score_3sigma_pct": 0.2,
+      "q25": 68.188,
+      "q75": 89.376,
+      "iqr": 21.188000000000002,
+      "min": 24.085,
+      "max": 100.2
+    },
+    "AFDP": {
+      "iqr_outliers_count": 557,
+      "iqr_outliers_pct": 1.52,
+      "z_score_3sigma_count": 132,
+      "z_score_3sigma_pct": 0.36,
+      "q25": 3.3556,
+      "q75": 4.3769,
+      "iqr": 1.0213,
+      "min": 2.0874,
+      "max": 7.6106
+    },
+    "GTEP": {
+      "iqr_outliers_count": 7,
+      "iqr_outliers_pct": 0.02,
+      "z_score_3sigma_count": 6,
+      "z_score_3sigma_pct": 0.02,
+      "q25": 23.129,
+      "q75": 29.061,
+      "iqr": 5.931999999999999,
+      "min": 17.698,
+      "max": 40.716
+    },
+    "TIT": {
+      "iqr_outliers_count": 315,
+      "iqr_outliers_pct": 0.86,
+      "z_score_3sigma_count": 154,
+      "z_score_3sigma_pct": 0.42,
+      "q25": 1071.8,
+      "q75": 1097.0,
+      "iqr": 25.200000000000045,
+      "min": 1000.8,
+      "max": 1100.9
+    },
+    "TAT": {
+      "iqr_outliers_count": 4955,
+      "iqr_outliers_pct": 13.49,
+      "z_score_3sigma_count": 428,
+      "z_score_3sigma_pct": 1.17,
+      "q25": 544.72,
+      "q75": 550.04,
+      "iqr": 5.319999999999936,
+      "min": 511.04,
+      "max": 550.61
+    },
+    "TEY": {
+      "iqr_outliers_count": 33,
+      "iqr_outliers_pct": 0.09,
+      "z_score_3sigma_count": 0,
+      "z_score_3sigma_pct": 0.0,
+      "q25": 124.45,
+      "q75": 144.08,
+      "iqr": 19.63000000000001,
+      "min": 100.02,
+      "max": 179.5
+    },
+    "CDP": {
+      "iqr_outliers_count": 10,
+      "iqr_outliers_pct": 0.03,
+      "z_score_3sigma_count": 0,
+      "z_score_3sigma_pct": 0.0,
+      "q25": 11.435,
+      "q75": 12.855,
+      "iqr": 1.42,
+      "min": 9.8518,
+      "max": 15.159
+    },
+    "CO": {
+      "iqr_outliers_count": 2655,
+      "iqr_outliers_pct": 7.23,
+      "z_score_3sigma_count": 644,
+      "z_score_3sigma_pct": 1.75,
+      "q25": 1.1824,
+      "q75": 2.8429,
+      "iqr": 1.6605000000000003,
+      "min": 0.00038751,
+      "max": 44.103
+    },
+    "NOX": {
+      "iqr_outliers_count": 936,
+      "iqr_outliers_pct": 2.55,
+      "z_score_3sigma_count": 546,
+      "z_score_3sigma_pct": 1.49,
+      "q25": 57.162,
+      "q75": 71.548,
+      "iqr": 14.386000000000003,
+      "min": 25.905,
+      "max": 119.91
+    }
+  }
+}

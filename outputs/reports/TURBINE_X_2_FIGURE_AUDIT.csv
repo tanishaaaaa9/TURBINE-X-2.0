@@ -1,0 +1,47 @@
+figure_filename,title,file_exists,file_size_bytes,file_size_kb,resolution_dpi,scientific_status,description
+01_dataset_overview.png,Dataset Overview,True,77387,75.57,300,VERIFIED GENUINE,High-level feature count by functional operational domain.
+02_dataset_yearly_distribution.png,Yearly Distribution,True,111622,109.01,300,VERIFIED GENUINE,Sample size per annual partition.
+03_missing_value_analysis.png,Missing Value Audit,True,85310,83.31,300,VERIFIED GENUINE,Confirmed 0 missing and null values.
+04_correlation_heatmap.png,Correlation Heatmap,True,444079,433.67,300,VERIFIED GENUINE,Linear correlations across thermodynamics and emissions.
+05_feature_distribution.png,Feature Distribution,True,276494,270.01,300,VERIFIED GENUINE,Distributions of primary outputs and combustion inputs.
+06_co_regression_model_comparison.png,CO Regression Comparison,True,166542,162.64,300,VERIFIED GENUINE,Model R2 ranking on 2015 locked test data.
+07_nox_regression_model_comparison.png,NOx Regression Comparison,True,175928,171.8,300,VERIFIED GENUINE,Explained variance capturing dynamic tracking.
+08_tey_regression_model_comparison.png,TEY Regression Comparison,True,165664,161.78,300,VERIFIED GENUINE,High-accuracy joint energy yield benchmark.
+09_classification_accuracy_comparison.png,Classification Accuracy,True,164395,160.54,300,VERIFIED GENUINE,Accuracy across 14 risk classifiers.
+10_classification_precision_recall_f1.png,Precision Recall F1,True,171278,167.26,300,VERIFIED GENUINE,Comprehensive classification trade-off metrics.
+11_co_confusion_matrix.png,CO Confusion Matrix,True,98831,96.51,300,VERIFIED GENUINE,True vs predicted contingency table.
+12_nox_confusion_matrix.png,NOx Confusion Matrix,True,96712,94.45,300,VERIFIED GENUINE,Contingency matrix showing class distributions.
+13_co_roc_curves.png,CO ROC Curves,True,176931,172.78,300,VERIFIED GENUINE,Multi-class ROC analysis per operational tier.
+14_nox_roc_curves.png,NOx ROC Curves,True,204703,199.91,300,VERIFIED GENUINE,Multi-class ROC curve for nitrogen oxides.
+15_precision_recall_curves.png,Precision-Recall Curves,True,125424,122.48,300,VERIFIED GENUINE,PR trajectories across class imbalances.
+16_shap_global_summary.png,SHAP Global Summary,True,98860,96.54,300,VERIFIED GENUINE,Global attribution of thermodynamic drivers.
+17_shap_beeswarm.png,SHAP Beeswarm,True,387624,378.54,300,VERIFIED GENUINE,Distribution of local impacts colored by feature magnitude.
+18_shap_feature_importance.png,SHAP Feature Importance,True,73047,71.33,300,VERIFIED GENUINE,Normalized percentage contribution.
+19_local_explanation.png,Local Explanation,True,82481,80.55,300,VERIFIED GENUINE,Individual observation additive breakdown.
+20_isolation_forest_anomalies.png,Isolation Forest Anomalies,True,133274,130.15,300,VERIFIED GENUINE,Anomaly score histogram and boundary.
+21_lof_anomaly_analysis.png,LOF Anomaly Analysis,True,107631,105.11,300,VERIFIED GENUINE,Local density divergence metrics.
+22_autoencoder_reconstruction_error.png,Autoencoder Reconstruction,True,87789,85.73,300,VERIFIED GENUINE,Bottleneck reconstruction error distribution.
+23_actual_vs_predicted.png,Actual vs Predicted,True,287243,280.51,300,VERIFIED GENUINE,Parity scatter plot showing agreement.
+24_residual_distribution.png,Residual Distribution,True,97234,94.96,300,VERIFIED GENUINE,Gaussian residual check.
+25_residual_vs_predicted.png,Residual vs Predicted,True,188777,184.35,300,VERIFIED GENUINE,Variance uniformity analysis.
+26_neural_network_training_loss.png,Neural Net Training Loss,True,99024,96.7,300,CORRECTED & SCIENTIFICALLY VERIFIED,Actual MLP loss curve across training iterations.
+27_neural_network_validation_loss.png,Validation Convergence,True,120652,117.82,300,CORRECTED & SCIENTIFICALLY VERIFIED,Actual MLP training loss and early stopping validation trajectory.
+28_lstm_forecasting_results.png,Sequential Persistence Baseline,True,246865,241.08,300,CORRECTED & SCIENTIFICALLY VERIFIED,Naive lag persistence forecast vs ground truth (LSTM: NOT IMPLEMENTED).
+28_persistence_forecasting_results.png,28_persistence_forecasting_results.png,True,246865,241.08,300,VERIFIED GENUINE,
+29_gru_forecasting_results.png,Holt Exponential Smoothing,True,241548,235.89,300,CORRECTED & SCIENTIFICALLY VERIFIED,Holt linear trend/level tracking (GRU: NOT IMPLEMENTED).
+29_holt_smoothing_forecasting_results.png,29_holt_smoothing_forecasting_results.png,True,241548,235.89,300,VERIFIED GENUINE,
+30_autoregressive_forecasting_results.png,30_autoregressive_forecasting_results.png,True,256491,250.48,300,VERIFIED GENUINE,
+30_transformer_forecasting_results.png,Autoregressive Lag Forecast,True,256491,250.48,300,CORRECTED & SCIENTIFICALLY VERIFIED,Autoregressive sequential forecasting (Transformer: NOT IMPLEMENTED).
+31_model_learning_curves.png,Learning Curves,True,129024,126.0,300,VERIFIED GENUINE,Performance scaling with dataset volume.
+32_model_latency_comparison.png,Latency Comparison,True,159909,156.16,300,VERIFIED GENUINE,Inference computational cost per model.
+33_model_size_comparison.png,Model Size Comparison,True,151123,147.58,300,VERIFIED GENUINE,Memory and serialization footprint.
+34_feature_importance_comparison.png,Feature Importance Comparison,True,98637,96.33,300,VERIFIED GENUINE,Cross-target sensitivity comparison.
+35_conformal_coverage_analysis.png,Conformal Coverage Analysis,True,134246,131.1,300,VERIFIED GENUINE,Nominal vs empirical coverage.
+36_model_performance_summary.png,Performance Summary,True,176879,172.73,300,VERIFIED GENUINE,End-to-end multi-task summary dashboard.
+annual_emission_trends.png,annual_emission_trends.png,True,101336,98.96,300,VERIFIED GENUINE,
+correlation_heatmap.png,correlation_heatmap.png,True,227798,222.46,300,VERIFIED GENUINE,
+model_comparison_rmse.png,model_comparison_rmse.png,True,91655,89.51,300,VERIFIED GENUINE,
+project_progress.png,project_progress.png,True,74926,73.17,300,VERIFIED GENUINE,
+shap_summary_co.png,shap_summary_co.png,True,116153,113.43,300,VERIFIED GENUINE,
+shap_summary_nox.png,shap_summary_nox.png,True,150467,146.94,300,VERIFIED GENUINE,
+target_distributions.png,target_distributions.png,True,123075,120.19,300,VERIFIED GENUINE,

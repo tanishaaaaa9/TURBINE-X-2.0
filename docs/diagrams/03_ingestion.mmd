@@ -1,0 +1,12 @@
+flowchart TD
+  N0["Five raw annual CSVs"]
+  N1["File integrity + SHA256"]
+  N2["Schema validation"]
+  N3["Attach year from filename"]
+  N4["Concatenate in year/order"]
+  N5["Immutable raw snapshot + inventory"]
+  N0 --> N1
+  N1 --> N2
+  N2 --> N3
+  N3 --> N4
+  N4 --> N5

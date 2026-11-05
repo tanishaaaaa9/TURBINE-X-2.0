@@ -1,0 +1,61 @@
+{
+  "track_a_features_raw": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "TEY",
+    "CDP"
+  ],
+  "track_a_features_engineered": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "TEY",
+    "CDP",
+    "pressure_ratio",
+    "temp_drop",
+    "temp_ratio",
+    "air_density_proxy",
+    "filter_ratio",
+    "enthalpy_proxy",
+    "ambient_temp_humidity",
+    "specific_power",
+    "thermal_load_ratio"
+  ],
+  "track_b_features_raw": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "CDP"
+  ],
+  "track_b_features_engineered": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "CDP",
+    "pressure_ratio",
+    "temp_drop",
+    "temp_ratio",
+    "air_density_proxy",
+    "filter_ratio",
+    "enthalpy_proxy",
+    "ambient_temp_humidity"
+  ],
+  "total_observations": 36733
+}

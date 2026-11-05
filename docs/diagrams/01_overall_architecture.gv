@@ -1,0 +1,23 @@
+digraph "01_overall_architecture" {
+	bgcolor=white fontname=Arial fontsize=18 label="TURBINE-X Overall Architecture" labelloc=t nodesep=0.35 pad=0.25 rankdir=TB ranksep=0.45
+	node [color="#315A7D" fillcolor="#EAF2F8" fontname=Arial fontsize=10 margin="0.12,0.08" shape=box style="rounded,filled"]
+	edge [arrowsize=0.7 color="#526777" fontname=Arial fontsize=8]
+	N0 [label="UCI annual CSV files"]
+	N1 [label="Data audit + provenance"]
+	N2 [label="EDA + feature design"]
+	N3 [label="Experiment A: CO/NOX"]
+	N4 [label="Experiment B: CO/NOX/TEY"]
+	N5 [label="Conventional ML + AutoML"]
+	N6 [label="Calibration + explainability"]
+	N7 [label="Support-aware trade-off analysis"]
+	N8 [label="Streamlit decision-support app"]
+	N0 -> N1
+	N1 -> N2
+	N2 -> N3
+	N2 -> N4
+	N3 -> N5
+	N4 -> N5
+	N5 -> N6
+	N6 -> N7
+	N7 -> N8
+}

@@ -1,0 +1,12 @@
+{
+  "total_records": 36733,
+  "annual_counts": {
+    "2011": 7411,
+    "2012": 7628,
+    "2013": 7152,
+    "2014": 7158,
+    "2015": 7384
+  },
+  "temporal_disjointness_verified": true,
+  "chronology_summary": "Annual records represent 5 consecutive operational years (2011-2015)."
+}

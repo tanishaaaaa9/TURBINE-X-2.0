@@ -1,0 +1,30 @@
+# =============================================================================
+# TURBINE-X 2.0 — Git Attributes & Binary Flagging
+# =============================================================================
+
+# Set default behavior to automatically normalize line endings
+* text=auto eol=lf
+
+# Explicit text files
+*.py text diff=python eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.svg text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary artifacts (disable line-ending normalization)
+*.joblib binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.parquet binary
+*.pdf binary
+*.docx binary
+*.ico binary
+

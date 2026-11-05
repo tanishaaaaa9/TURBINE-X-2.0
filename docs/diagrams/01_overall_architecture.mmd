@@ -1,0 +1,19 @@
+flowchart TD
+  N0["UCI annual CSV files"]
+  N1["Data audit + provenance"]
+  N2["EDA + feature design"]
+  N3["Experiment A: CO/NOX"]
+  N4["Experiment B: CO/NOX/TEY"]
+  N5["Conventional ML + AutoML"]
+  N6["Calibration + explainability"]
+  N7["Support-aware trade-off analysis"]
+  N8["Streamlit decision-support app"]
+  N0 --> N1
+  N1 --> N2
+  N2 --> N3
+  N2 --> N4
+  N3 --> N5
+  N4 --> N5
+  N5 --> N6
+  N6 --> N7
+  N7 --> N8

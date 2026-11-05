@@ -1,0 +1,17 @@
+digraph "09_automl" {
+	bgcolor=white fontname=Arial fontsize=18 label="AutoML and Hyperparameter Optimization" labelloc=t nodesep=0.35 pad=0.25 rankdir=TB ranksep=0.45
+	node [color="#315A7D" fillcolor="#EAF2F8" fontname=Arial fontsize=10 margin="0.12,0.08" shape=box style="rounded,filled"]
+	edge [arrowsize=0.7 color="#526777" fontname=Arial fontsize=8]
+	N0 [label="Fixed data folds"]
+	N1 [label="FLAML per target"]
+	N2 [label="Optuna objective"]
+	N3 [label="Candidate configurations"]
+	N4 [label="Validation-only comparison"]
+	N5 [label="Frozen configuration"]
+	N0 -> N1
+	N0 -> N2
+	N1 -> N3
+	N2 -> N3
+	N3 -> N4
+	N4 -> N5
+}

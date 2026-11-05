@@ -1,0 +1,179 @@
+{
+  "2011": {
+    "is_valid": true,
+    "errors": [],
+    "warnings": [],
+    "row_count": 7411,
+    "column_count": 11,
+    "columns": [
+      "AT",
+      "AP",
+      "AH",
+      "AFDP",
+      "GTEP",
+      "TIT",
+      "TAT",
+      "TEY",
+      "CDP",
+      "CO",
+      "NOX"
+    ],
+    "null_counts": {
+      "AT": 0,
+      "AP": 0,
+      "AH": 0,
+      "AFDP": 0,
+      "GTEP": 0,
+      "TIT": 0,
+      "TAT": 0,
+      "TEY": 0,
+      "CDP": 0,
+      "CO": 0,
+      "NOX": 0
+    },
+    "duplicate_rows": 0,
+    "out_of_bounds": {}
+  },
+  "2012": {
+    "is_valid": true,
+    "errors": [],
+    "warnings": [],
+    "row_count": 7628,
+    "column_count": 11,
+    "columns": [
+      "AT",
+      "AP",
+      "AH",
+      "AFDP",
+      "GTEP",
+      "TIT",
+      "TAT",
+      "TEY",
+      "CDP",
+      "CO",
+      "NOX"
+    ],
+    "null_counts": {
+      "AT": 0,
+      "AP": 0,
+      "AH": 0,
+      "AFDP": 0,
+      "GTEP": 0,
+      "TIT": 0,
+      "TAT": 0,
+      "TEY": 0,
+      "CDP": 0,
+      "CO": 0,
+      "NOX": 0
+    },
+    "duplicate_rows": 0,
+    "out_of_bounds": {}
+  },
+  "2013": {
+    "is_valid": true,
+    "errors": [],
+    "warnings": [],
+    "row_count": 7152,
+    "column_count": 11,
+    "columns": [
+      "AT",
+      "AP",
+      "AH",
+      "AFDP",
+      "GTEP",
+      "TIT",
+      "TAT",
+      "TEY",
+      "CDP",
+      "CO",
+      "NOX"
+    ],
+    "null_counts": {
+      "AT": 0,
+      "AP": 0,
+      "AH": 0,
+      "AFDP": 0,
+      "GTEP": 0,
+      "TIT": 0,
+      "TAT": 0,
+      "TEY": 0,
+      "CDP": 0,
+      "CO": 0,
+      "NOX": 0
+    },
+    "duplicate_rows": 0,
+    "out_of_bounds": {}
+  },
+  "2014": {
+    "is_valid": true,
+    "errors": [],
+    "warnings": [
+      "Dataset contains 7 exact duplicate rows."
+    ],
+    "row_count": 7158,
+    "column_count": 11,
+    "columns": [
+      "AT",
+      "AP",
+      "AH",
+      "AFDP",
+      "GTEP",
+      "TIT",
+      "TAT",
+      "TEY",
+      "CDP",
+      "CO",
+      "NOX"
+    ],
+    "null_counts": {
+      "AT": 0,
+      "AP": 0,
+      "AH": 0,
+      "AFDP": 0,
+      "GTEP": 0,
+      "TIT": 0,
+      "TAT": 0,
+      "TEY": 0,
+      "CDP": 0,
+      "CO": 0,
+      "NOX": 0
+    },
+    "duplicate_rows": 7,
+    "out_of_bounds": {}
+  },
+  "2015": {
+    "is_valid": true,
+    "errors": [],
+    "warnings": [],
+    "row_count": 7384,
+    "column_count": 11,
+    "columns": [
+      "AT",
+      "AP",
+      "AH",
+      "AFDP",
+      "GTEP",
+      "TIT",
+      "TAT",
+      "TEY",
+      "CDP",
+      "CO",
+      "NOX"
+    ],
+    "null_counts": {
+      "AT": 0,
+      "AP": 0,
+      "AH": 0,
+      "AFDP": 0,
+      "GTEP": 0,
+      "TIT": 0,
+      "TAT": 0,
+      "TEY": 0,
+      "CDP": 0,
+      "CO": 0,
+      "NOX": 0
+    },
+    "duplicate_rows": 0,
+    "out_of_bounds": {}
+  }
+}

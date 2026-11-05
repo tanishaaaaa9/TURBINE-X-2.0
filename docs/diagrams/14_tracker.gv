@@ -1,0 +1,18 @@
+digraph "14_tracker" {
+	bgcolor=white fontname=Arial fontsize=18 label="Automatic Progress Tracking Architecture" labelloc=t nodesep=0.35 pad=0.25 rankdir=TB ranksep=0.45
+	node [color="#315A7D" fillcolor="#EAF2F8" fontname=Arial fontsize=10 margin="0.12,0.08" shape=box style="rounded,filled"]
+	edge [arrowsize=0.7 color="#526777" fontname=Arial fontsize=8]
+	N0 [label="tasks.json registry"]
+	N1 [label="tracker.py"]
+	N2 [label="Notebook / script validation"]
+	N3 [label="Expected-output checks"]
+	N4 [label="progress_state.json"]
+	N5 [label="progress_report.py"]
+	N6 [label="Markdown report + chart"]
+	N0 -> N1
+	N2 -> N1
+	N3 -> N1
+	N1 -> N4
+	N4 -> N5
+	N5 -> N6
+}

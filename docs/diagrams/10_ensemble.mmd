@@ -1,0 +1,12 @@
+flowchart TD
+  N0["Out-of-fold predictions A"]
+  N1["Stacking meta-model"]
+  N2["Out-of-fold predictions B"]
+  N3["Validation comparison"]
+  N4["Best single model"]
+  N5["Keep only if robustly better"]
+  N0 --> N1
+  N2 --> N1
+  N1 --> N3
+  N4 --> N3
+  N3 --> N5

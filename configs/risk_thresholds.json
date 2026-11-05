@@ -1,0 +1,20 @@
+{
+  "CO": {
+    "tier_1_normal_max": 1.19,
+    "tier_2_elevated_max": 1.98,
+    "labels": [
+      "Normal",
+      "Elevated",
+      "High Risk"
+    ]
+  },
+  "NOX": {
+    "tier_1_normal_max": 63.53,
+    "tier_2_elevated_max": 71.66,
+    "labels": [
+      "Normal",
+      "Elevated",
+      "High Risk"
+    ]
+  }
+}

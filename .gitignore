@@ -1,0 +1,54 @@
+# =============================================================================
+# TURBINE-X 2.0 — Comprehensive Safe .gitignore
+# =============================================================================
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Python Bytecode & Optimization Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Testing & Linting Caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter & Editor Checkpoints
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Algorithm Diagnostics & Temporary Logs
+catboost_info/
+logs/*.log
+*.bak
+
+# OS-Specific Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Secrets & Credentials
+.env*
+*.key
+*.pem
+secrets.json
+
+# Legacy Models Exceeding GitHub 100 MB Limit
+# (Preserves all TURBINE-X 2.0 models in artifacts/models/v2/)
+/artifacts/models/A_emissions/
+/artifacts/models/B_joint/
+/models/

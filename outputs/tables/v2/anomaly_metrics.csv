@@ -1,0 +1,6 @@
+model,dev_anomaly_rate_pct,anomaly_rate_pct,mean_anomaly_score,score_std,train_time_sec,dev_sample_count,test_sample_count,drift_impact
+IsolationForest,3.0,5.74,-0.4961,0.0473,0.297,22191,7384,Low Shift
+LocalOutlierFactor,2.69,34.98,-1.4535,0.3728,0.396,22191,7384,Moderate Shift
+OneClassSVM,3.02,15.33,73.952,10.5304,0.433,22191,7384,Moderate Shift
+EllipticEnvelope,3.0,99.99,-269.1223,351.9208,1.96,22191,7384,High Distribution Shift
+DeepAutoencoder,3.0,99.96,-0.0276,0.0498,0.787,22191,7384,High Distribution Shift

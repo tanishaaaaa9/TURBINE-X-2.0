@@ -1,0 +1,18 @@
+flowchart TD
+  N0["User inputs"]
+  N1["Schema + range validation"]
+  N2["Saved preprocessing + model"]
+  N3["CO / NOX / TEY estimates"]
+  N4["Prediction intervals"]
+  N5["SHAP explanations"]
+  N6["Dashboard"]
+  N7["Responsible-use notice"]
+  N0 --> N1
+  N1 --> N2
+  N2 --> N3
+  N2 --> N4
+  N2 --> N5
+  N3 --> N6
+  N4 --> N6
+  N5 --> N6
+  N6 --> N7

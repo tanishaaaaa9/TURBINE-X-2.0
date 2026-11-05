@@ -1,0 +1,37 @@
+figure_filename,title,description,source_dataset,experiment_id,generation_status
+01_dataset_overview.png,Dataset Overview,High-level feature count by functional operational domain.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+02_dataset_yearly_distribution.png,Yearly Distribution,Sample size per annual partition.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+03_missing_value_analysis.png,Missing Value Audit,Confirmed 0 missing and null values.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+04_correlation_heatmap.png,Correlation Heatmap,Linear correlations across thermodynamics and emissions.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+05_feature_distribution.png,Feature Distribution,Distributions of primary outputs and combustion inputs.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+06_co_regression_model_comparison.png,CO Regression Comparison,Model R2 ranking on 2015 locked test data.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+07_nox_regression_model_comparison.png,NOx Regression Comparison,Explained variance capturing dynamic tracking.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+08_tey_regression_model_comparison.png,TEY Regression Comparison,High-accuracy joint energy yield benchmark.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+09_classification_accuracy_comparison.png,Classification Accuracy,Accuracy across 14 risk classifiers.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+10_classification_precision_recall_f1.png,Precision Recall F1,Comprehensive classification trade-off metrics.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+11_co_confusion_matrix.png,CO Confusion Matrix,True vs predicted contingency table.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+12_nox_confusion_matrix.png,NOx Confusion Matrix,Contingency matrix showing class distributions.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+13_co_roc_curves.png,CO ROC Curves,Multi-class ROC analysis per operational tier.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+14_nox_roc_curves.png,NOx ROC Curves,Multi-class ROC curve for nitrogen oxides.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+15_precision_recall_curves.png,Precision-Recall Curves,PR trajectories across class imbalances.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+16_shap_global_summary.png,SHAP Global Summary,Global attribution of thermodynamic drivers.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+17_shap_beeswarm.png,SHAP Beeswarm,Distribution of local impacts colored by feature magnitude.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+18_shap_feature_importance.png,SHAP Feature Importance,Normalized percentage contribution.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+19_local_explanation.png,Local Explanation,Individual observation additive breakdown.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+20_isolation_forest_anomalies.png,Isolation Forest Anomalies,Anomaly score histogram and boundary.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+21_lof_anomaly_analysis.png,LOF Anomaly Analysis,Local density divergence metrics.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+22_autoencoder_reconstruction_error.png,Autoencoder Reconstruction,Bottleneck reconstruction error distribution.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+23_actual_vs_predicted.png,Actual vs Predicted,Parity scatter plot showing agreement.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+24_residual_distribution.png,Residual Distribution,Gaussian residual check.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+25_residual_vs_predicted.png,Residual vs Predicted,Variance uniformity analysis.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+26_neural_network_training_loss.png,Neural Net Training Loss,Actual MLP loss curve across training iterations.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+27_neural_network_validation_loss.png,Validation Convergence,Actual MLP training loss and early stopping validation trajectory.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+28_lstm_forecasting_results.png,Sequential Persistence Baseline,Naive lag persistence forecast vs ground truth (LSTM: NOT IMPLEMENTED).,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+29_gru_forecasting_results.png,Holt Exponential Smoothing,Holt linear trend/level tracking (GRU: NOT IMPLEMENTED).,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+30_transformer_forecasting_results.png,Autoregressive Lag Forecast,Autoregressive sequential forecasting (Transformer: NOT IMPLEMENTED).,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+31_model_learning_curves.png,Learning Curves,Performance scaling with dataset volume.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+32_model_latency_comparison.png,Latency Comparison,Inference computational cost per model.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+33_model_size_comparison.png,Model Size Comparison,Memory and serialization footprint.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+34_feature_importance_comparison.png,Feature Importance Comparison,Cross-target sensitivity comparison.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+35_conformal_coverage_analysis.png,Conformal Coverage Analysis,Nominal vs empirical coverage.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED
+36_model_performance_summary.png,Performance Summary,End-to-end multi-task summary dashboard.,UCI Gas Turbine 2011-2015,TURBINE_X_2.0_MASTER,GENERATED

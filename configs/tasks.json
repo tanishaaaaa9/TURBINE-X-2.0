@@ -1,0 +1,493 @@
+{
+  "project": "TURBINE-X",
+  "version": "1.0",
+  "tasks": [
+    {
+      "task_id": "P01",
+      "phase": "Initialization",
+      "title": "Create environment and install pinned dependencies",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [],
+      "notebook": "00_environment_setup.ipynb",
+      "expected_outputs": [
+        "outputs/reports/environment_check.json"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "P02",
+      "phase": "Initialization",
+      "title": "Initialize Git, config and logging",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "P01"
+      ],
+      "notebook": "00_environment_setup.ipynb",
+      "expected_outputs": [
+        "configs/project.yaml",
+        "logs/project.log"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "D01",
+      "phase": "Dataset audit",
+      "title": "Verify file inventory, SHA256 and schemas",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [],
+      "notebook": "01_dataset_inventory_and_audit.ipynb",
+      "expected_outputs": [
+        "outputs/reports/dataset_inventory.csv",
+        "outputs/reports/schema_audit.json"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "D02",
+      "phase": "Dataset audit",
+      "title": "Profile missingness, duplicates, ranges and constants",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "D01"
+      ],
+      "notebook": "01_dataset_inventory_and_audit.ipynb",
+      "expected_outputs": [
+        "outputs/reports/data_quality_report.json",
+        "outputs/tables/duplicate_audit.csv"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "D03",
+      "phase": "Dataset audit",
+      "title": "Validate annual ordering and data dictionary",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "D01"
+      ],
+      "notebook": "02_data_understanding.ipynb",
+      "expected_outputs": [
+        "docs/data_dictionary.md",
+        "outputs/reports/chronology_audit.json"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "D04",
+      "phase": "Dataset audit",
+      "title": "Approve task and target definitions",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "D02",
+        "D03"
+      ],
+      "notebook": "02_data_understanding.ipynb",
+      "expected_outputs": [
+        "docs/problem_definition.md"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "E01",
+      "phase": "EDA",
+      "title": "Generate univariate and target EDA",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "D04"
+      ],
+      "notebook": "03_exploratory_data_analysis.ipynb",
+      "expected_outputs": [
+        "outputs/figures/target_distributions.png",
+        "outputs/tables/annual_summary.csv"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "E02",
+      "phase": "EDA",
+      "title": "Analyze correlations, redundancy and annual shifts",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "E01"
+      ],
+      "notebook": "03_exploratory_data_analysis.ipynb",
+      "expected_outputs": [
+        "outputs/figures/correlation_heatmap.png",
+        "outputs/tables/annual_target_summary.csv"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "C01",
+      "phase": "Cleaning",
+      "title": "Implement validated cleaning and duplicate sensitivity branch",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "D04"
+      ],
+      "notebook": "04_data_quality_and_cleaning.ipynb",
+      "expected_outputs": [
+        "data/processed/cleaned_master.parquet",
+        "outputs/reports/cleaning_log.json"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "F01",
+      "phase": "Features",
+      "title": "Create experiment A/B feature matrices",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "C01"
+      ],
+      "notebook": "05_feature_engineering.ipynb",
+      "expected_outputs": [
+        "data/processed/feature_manifest.json"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "F02",
+      "phase": "Features",
+      "title": "Run feature redundancy and stability analysis",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "F01"
+      ],
+      "notebook": "06_feature_selection.ipynb",
+      "expected_outputs": [
+        "outputs/tables/feature_diagnostics.csv"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "S01",
+      "phase": "Splitting",
+      "title": "Freeze chronological development/calibration/test partitions",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "F01"
+      ],
+      "notebook": "07_train_validation_test_split.ipynb",
+      "expected_outputs": [
+        "data/processed/split_manifest.json"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "B01",
+      "phase": "Baselines",
+      "title": "Train dummy and regularized linear baselines",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "S01"
+      ],
+      "notebook": "08_baseline_models.ipynb",
+      "expected_outputs": [
+        "experiments/baseline_metrics.csv"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "M01",
+      "phase": "Advanced ML",
+      "title": "Train tree-based independent and multi-output models",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "B01"
+      ],
+      "notebook": "09_advanced_ml_models.ipynb",
+      "expected_outputs": [
+        "experiments/advanced_model_metrics.csv"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "O01",
+      "phase": "Optimization",
+      "title": "Tune models under fixed time/trial budgets",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "M01"
+      ],
+      "notebook": "10_hyperparameter_optimization.ipynb",
+      "expected_outputs": [
+        "experiments/optuna_trials.csv"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "A01",
+      "phase": "AutoML",
+      "title": "Run FLAML per target with identical temporal folds",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "S01"
+      ],
+      "notebook": "11_automl_experiments.ipynb",
+      "expected_outputs": [
+        "experiments/automl_summary.json"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "EN01",
+      "phase": "Ensembling",
+      "title": "Compare selected model ensemble against best single model",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "O01",
+        "A01"
+      ],
+      "notebook": "12_ensemble_learning.ipynb",
+      "expected_outputs": [
+        "experiments/ensemble_comparison.csv"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "X01",
+      "phase": "Explainability",
+      "title": "Generate global/local explanations and dependence plots",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "EN01"
+      ],
+      "notebook": "13_model_explainability.ipynb",
+      "expected_outputs": [
+        "outputs/figures/shap_summary_co.png",
+        "outputs/figures/shap_summary_nox.png"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "U01",
+      "phase": "Uncertainty",
+      "title": "Calibrate marginal and joint prediction intervals",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "EN01"
+      ],
+      "notebook": "14_model_evaluation.ipynb",
+      "expected_outputs": [
+        "experiments/uncertainty_metrics.csv"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "R01",
+      "phase": "Robustness",
+      "title": "Run residual, temporal, duplicate and noise sensitivity analyses",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "U01",
+        "X01"
+      ],
+      "notebook": "15_error_and_robustness_analysis.ipynb",
+      "expected_outputs": [
+        "outputs/reports/robustness_report.md"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "T01",
+      "phase": "Final model",
+      "title": "Freeze final candidate and serialize complete pipeline",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "R01"
+      ],
+      "notebook": "16_final_model_training_and_saving.ipynb",
+      "expected_outputs": [
+        "models/final_model.joblib",
+        "models/model_metadata.json"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "T02",
+      "phase": "Final model",
+      "title": "Produce final locked test report and reproducibility manifest",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "T01"
+      ],
+      "notebook": "17_final_results_and_reproducibility.ipynb",
+      "expected_outputs": [
+        "outputs/reports/final_evaluation.md",
+        "outputs/reports/reproducibility.json"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "APP01",
+      "phase": "Application",
+      "title": "Build validated Streamlit prediction and explanation UI",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "T01"
+      ],
+      "notebook": "",
+      "expected_outputs": [
+        "app/app.py",
+        "tests/test_app_smoke.py"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "QA01",
+      "phase": "QA",
+      "title": "Run automated schema, leakage, metric and serialization tests",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "APP01",
+        "T02"
+      ],
+      "notebook": "",
+      "expected_outputs": [
+        "outputs/reports/test_results.txt"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    },
+    {
+      "task_id": "DOC01",
+      "phase": "Documentation",
+      "title": "Complete final report, diagrams and README",
+      "status": "NOT_STARTED",
+      "start_date": null,
+      "last_updated": null,
+      "dependencies": [
+        "QA01"
+      ],
+      "notebook": "",
+      "expected_outputs": [
+        "docs/final_research_report.docx",
+        "docs/final_research_report.pdf"
+      ],
+      "actual_outputs": [],
+      "validation_status": "NOT_RUN",
+      "errors_or_blockers": "",
+      "notes": ""
+    }
+  ]
+}

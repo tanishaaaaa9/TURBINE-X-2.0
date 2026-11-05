@@ -1,0 +1,34 @@
+{
+  "environment": {
+    "os": "Windows",
+    "os_release": "11",
+    "os_version": "10.0.26200",
+    "machine": "AMD64",
+    "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "cpu_count_logical": 32,
+    "cpu_count_physical": 16,
+    "ram_total_gb": 15.21,
+    "python_version": "3.13.14",
+    "python_executable": "D:\\TURBINE_X_Full_Project\\.venv\\Scripts\\python.exe"
+  },
+  "dependencies": {
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "plotly": "7.1.0",
+    "joblib": "1.6.0",
+    "yaml": "6.0.3",
+    "xgboost": "2.1.4",
+    "catboost": "1.2.10",
+    "optuna": "5.0.0",
+    "flaml": "2.7.0",
+    "shap": "0.54.1",
+    "streamlit": "1.66.1",
+    "pytest": "9.2.0"
+  },
+  "project_root": "D:\\TURBINE_X_Full_Project\\TURBINE_X_Full_Project",
+  "status": "VERIFIED"
+}

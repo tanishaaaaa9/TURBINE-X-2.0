@@ -1,0 +1,14 @@
+flowchart TD
+  N0["Raw records"]
+  N1["Type and finite checks"]
+  N2["Missingness / duplicate audit"]
+  N3["Physical plausibility review"]
+  N4["Primary data retained"]
+  N5["Sensitivity copy without exact duplicates"]
+  N6["Fold-fitted transformations"]
+  N0 --> N1
+  N1 --> N2
+  N2 --> N3
+  N3 --> N4
+  N4 --> N5
+  N5 --> N6

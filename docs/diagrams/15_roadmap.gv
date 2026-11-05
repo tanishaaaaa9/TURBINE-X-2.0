@@ -1,0 +1,16 @@
+digraph "15_roadmap" {
+	bgcolor=white fontname=Arial fontsize=18 label="Project Execution Roadmap" labelloc=t nodesep=0.35 pad=0.25 rankdir=TB ranksep=0.45
+	node [color="#315A7D" fillcolor="#EAF2F8" fontname=Arial fontsize=10 margin="0.12,0.08" shape=box style="rounded,filled"]
+	edge [arrowsize=0.7 color="#526777" fontname=Arial fontsize=8]
+	N0 [label="Weeks 1–2: Audit + EDA"]
+	N1 [label="Weeks 3–4: Features + splits"]
+	N2 [label="Weeks 5–6: Baselines + advanced ML"]
+	N3 [label="Weeks 7–8: AutoML + uncertainty + XAI"]
+	N4 [label="Weeks 9–10: Robustness + final model"]
+	N5 [label="Weeks 11–12: App + QA + report"]
+	N0 -> N1
+	N1 -> N2
+	N2 -> N3
+	N3 -> N4
+	N4 -> N5
+}

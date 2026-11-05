@@ -1,0 +1,33 @@
+digraph "07_splitting" {
+	bgcolor=white fontname=Arial fontsize=18 label="Chronological Split and Leakage Prevention" labelloc=t nodesep=0.35 pad=0.25 rankdir=TB ranksep=0.45
+	node [color="#315A7D" fillcolor="#EAF2F8" fontname=Arial fontsize=10 margin="0.12,0.08" shape=box style="rounded,filled"]
+	edge [arrowsize=0.7 color="#526777" fontname=Arial fontsize=8]
+	N0 [label=2011]
+	N1 [label="Fold 1 train"]
+	N2 [label=2012]
+	N3 [label="Fold 1 validation"]
+	N4 [label="2011 + 2012"]
+	N5 [label="Fold 2 train"]
+	N6 [label=2013]
+	N7 [label="Fold 2 validation"]
+	N8 [label=2014]
+	N9 [label="Calibration / configuration"]
+	N10 [label=2015]
+	N11 [label="Locked test"]
+	N12 [label="Model selection"]
+	N13 [label="Freeze model"]
+	N14 [label="One-time 2015 evaluation"]
+	N0 -> N1
+	N2 -> N3
+	N4 -> N5
+	N6 -> N7
+	N8 -> N9
+	N10 -> N11
+	N1 -> N12
+	N3 -> N12
+	N5 -> N12
+	N7 -> N12
+	N12 -> N13
+	N9 -> N13
+	N13 -> N14
+}

@@ -1,0 +1,19 @@
+digraph "05_eda" {
+	bgcolor=white fontname=Arial fontsize=18 label="Exploratory Data Analysis Workflow" labelloc=t nodesep=0.35 pad=0.25 rankdir=TB ranksep=0.45
+	node [color="#315A7D" fillcolor="#EAF2F8" fontname=Arial fontsize=10 margin="0.12,0.08" shape=box style="rounded,filled"]
+	edge [arrowsize=0.7 color="#526777" fontname=Arial fontsize=8]
+	N0 [label="Validated master table"]
+	N1 [label="Univariate distributions"]
+	N2 [label="Annual summaries"]
+	N3 [label="Correlation / redundancy"]
+	N4 [label="Target tails"]
+	N5 [label="EDA report"]
+	N0 -> N1
+	N0 -> N2
+	N0 -> N3
+	N0 -> N4
+	N1 -> N5
+	N2 -> N5
+	N3 -> N5
+	N4 -> N5
+}

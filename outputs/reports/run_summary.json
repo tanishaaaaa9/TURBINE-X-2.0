@@ -1,0 +1,23 @@
+{
+  "dataset_rows": 36733,
+  "development_rows": 22191,
+  "calibration_rows": 7158,
+  "locked_test_rows": 7384,
+  "years": {
+    "development": [
+      2011,
+      2012,
+      2013
+    ],
+    "calibration": [
+      2014
+    ],
+    "locked_test": [
+      2015
+    ]
+  },
+  "warning": "2015 is a locked temporal test. Models were trained strictly on 2011-2013.",
+  "records_evaluated": 60,
+  "quick_mode": false,
+  "timestamp": "2026-11-05 19:17:25"
+}

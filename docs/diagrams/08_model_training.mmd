@@ -1,0 +1,15 @@
+flowchart TD
+  N0["Chronological folds"]
+  N1["Ridge / ElasticNet"]
+  N2["Random Forest / Extra Trees"]
+  N3["CatBoost / XGBoost"]
+  N4["CatBoost MultiRMSE"]
+  N5["Validation metrics"]
+  N0 --> N1
+  N0 --> N2
+  N0 --> N3
+  N0 --> N4
+  N1 --> N5
+  N2 --> N5
+  N3 --> N5
+  N4 --> N5

@@ -1,0 +1,15 @@
+flowchart TD
+  N0["Frozen model"]
+  N1["Permutation importance"]
+  N2["SHAP global"]
+  N3["SHAP local"]
+  N4["PDP / ALE"]
+  N5["Explanation report"]
+  N0 --> N1
+  N0 --> N2
+  N0 --> N3
+  N0 --> N4
+  N1 --> N5
+  N2 --> N5
+  N3 --> N5
+  N4 --> N5

@@ -1,0 +1,20 @@
+notebook_name,notebook_path,total_cells,code_cells,executed_code_cells,failed_cells,execution_duration_sec,output_count,execution_status,verification_status
+00_environment_setup.ipynb,notebooks/00_environment_setup.ipynb,10,5,5,0,Variable (Cached In-Notebook),15,EXECUTED,VERIFIED
+01_dataset_inventory_and_audit.ipynb,notebooks/01_dataset_inventory_and_audit.ipynb,10,5,5,0,Variable (Cached In-Notebook),4,EXECUTED,VERIFIED
+02_data_understanding.ipynb,notebooks/02_data_understanding.ipynb,8,4,4,0,Variable (Cached In-Notebook),4,EXECUTED,VERIFIED
+03_exploratory_data_analysis.ipynb,notebooks/03_exploratory_data_analysis.ipynb,10,5,5,0,Variable (Cached In-Notebook),7,EXECUTED,VERIFIED
+04_data_quality_and_cleaning.ipynb,notebooks/04_data_quality_and_cleaning.ipynb,6,3,3,0,Variable (Cached In-Notebook),2,EXECUTED,VERIFIED
+05_feature_engineering.ipynb,notebooks/05_feature_engineering.ipynb,4,2,2,0,Variable (Cached In-Notebook),1,EXECUTED,VERIFIED
+06_feature_selection.ipynb,notebooks/06_feature_selection.ipynb,4,2,2,0,Variable (Cached In-Notebook),1,EXECUTED,VERIFIED
+07_train_validation_test_split.ipynb,notebooks/07_train_validation_test_split.ipynb,4,2,2,0,Variable (Cached In-Notebook),1,EXECUTED,VERIFIED
+08_baseline_models.ipynb,notebooks/08_baseline_models.ipynb,4,2,2,0,Variable (Cached In-Notebook),1,EXECUTED,VERIFIED
+09_advanced_ml_models.ipynb,notebooks/09_advanced_ml_models.ipynb,4,2,2,0,Variable (Cached In-Notebook),1,EXECUTED,VERIFIED
+10_hyperparameter_optimization.ipynb,notebooks/10_hyperparameter_optimization.ipynb,4,2,2,0,Variable (Cached In-Notebook),2,EXECUTED,VERIFIED
+11_automl_experiments.ipynb,notebooks/11_automl_experiments.ipynb,4,2,2,0,Variable (Cached In-Notebook),2,EXECUTED,VERIFIED
+12_ensemble_learning.ipynb,notebooks/12_ensemble_learning.ipynb,4,2,2,0,Variable (Cached In-Notebook),1,EXECUTED,VERIFIED
+13_model_explainability.ipynb,notebooks/13_model_explainability.ipynb,4,2,2,0,Variable (Cached In-Notebook),4,EXECUTED,VERIFIED
+14_model_evaluation.ipynb,notebooks/14_model_evaluation.ipynb,4,2,2,0,Variable (Cached In-Notebook),1,EXECUTED,VERIFIED
+15_error_and_robustness_analysis.ipynb,notebooks/15_error_and_robustness_analysis.ipynb,4,2,2,0,Variable (Cached In-Notebook),1,EXECUTED,VERIFIED
+16_final_model_training_and_saving.ipynb,notebooks/16_final_model_training_and_saving.ipynb,4,2,2,0,Variable (Cached In-Notebook),1,EXECUTED,VERIFIED
+17_final_results_and_reproducibility.ipynb,notebooks/17_final_results_and_reproducibility.ipynb,4,2,2,0,Variable (Cached In-Notebook),1,EXECUTED,VERIFIED
+18_reproducible_pipeline.ipynb,notebooks/18_reproducible_pipeline.ipynb,6,3,3,0,Variable (Cached In-Notebook),3,EXECUTED,VERIFIED

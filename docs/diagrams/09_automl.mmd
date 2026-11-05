@@ -1,0 +1,13 @@
+flowchart TD
+  N0["Fixed data folds"]
+  N1["FLAML per target"]
+  N2["Optuna objective"]
+  N3["Candidate configurations"]
+  N4["Validation-only comparison"]
+  N5["Frozen configuration"]
+  N0 --> N1
+  N0 --> N2
+  N1 --> N3
+  N2 --> N3
+  N3 --> N4
+  N4 --> N5

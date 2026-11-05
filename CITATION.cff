@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use the TURBINE-X 2.0 platform or benchmark in your research, please cite it as below."
+title: "TURBINE-X 2.0: An Intelligent Multi-Task AI Platform for Gas Turbine Performance and Emission Analytics"
+authors:
+  - family-names: "Prasad"
+    given-names: "Tanisha"
+    alias: "tanishaaaaa9"
+version: 2.0.0
+date-released: 2026-11-05
+license: MIT
+repository-code: "https://github.com/tanishaaaaa9/TURBINE-X-2.0"
+keywords:
+  - "gas turbine analytics"
+  - "emission prediction"
+  - "machine learning"
+  - "multi-task learning"
+  - "anomaly detection"
+  - "explainable ai"
+  - "conformal prediction"
+  - "streamit"
+abstract: "A comprehensive, multi-task industrial AI platform incorporating supervised regression (16 models), operational risk classification (14 models), unsupervised health monitoring (5 anomaly detectors), sequential observation forecasting, SHAP interpretability, and interactive decision support for gas turbine emission and energy yield optimization."
+

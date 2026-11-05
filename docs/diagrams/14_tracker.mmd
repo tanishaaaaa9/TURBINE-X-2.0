@@ -1,0 +1,14 @@
+flowchart TD
+  N0["tasks.json registry"]
+  N1["tracker.py"]
+  N2["Notebook / script validation"]
+  N3["Expected-output checks"]
+  N4["progress_state.json"]
+  N5["progress_report.py"]
+  N6["Markdown report + chart"]
+  N0 --> N1
+  N2 --> N1
+  N3 --> N1
+  N1 --> N4
+  N4 --> N5
+  N5 --> N6

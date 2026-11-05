@@ -1,0 +1,271 @@
+relative_path,file_type,file_size_bytes,purpose,implementation_status,execution_status,verification_status
+.gitignore,Project File,261,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+DATASET_AUDIT_REPORT.md,Documentation,2038,Project readme or text documentation.,COMPLETE,VERIFIED,VERIFIED
+FINAL_EXECUTION_REPORT.md,Documentation,20785,Project readme or text documentation.,COMPLETE,VERIFIED,VERIFIED
+PROGRESS_REPORT_EXAMPLE.md,Documentation,3482,Project readme or text documentation.,COMPLETE,VERIFIED,VERIFIED
+PROGRESS_TRACKER_REFERENCE.py,Project File,7577,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+README.md,Documentation,11163,Project readme or text documentation.,COMPLETE,VERIFIED,VERIFIED
+RUN_DASHBOARD.bat,Batch Script,490,"Windows execution script for CLI, benchmark, or dashboard.",COMPLETE,VERIFIED,VERIFIED
+RUN_FULL_BENCHMARK.bat,Batch Script,497,"Windows execution script for CLI, benchmark, or dashboard.",COMPLETE,VERIFIED,VERIFIED
+RUN_ON_WINDOWS.bat,Batch Script,1230,"Windows execution script for CLI, benchmark, or dashboard.",COMPLETE,VERIFIED,VERIFIED
+RUN_QUICK_TEST.bat,Batch Script,361,"Windows execution script for CLI, benchmark, or dashboard.",COMPLETE,VERIFIED,VERIFIED
+TASK_REGISTRY_REFERENCE.json,Project File,13417,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+app.py,Streamlit App,13487,Interactive decision-support intelligence dashboard.,COMPLETE,VERIFIED,VERIFIED
+app/app.py,Streamlit App,398,Interactive decision-support intelligence dashboard.,COMPLETE,VERIFIED,VERIFIED
+artifacts/models/A_emissions/Dummy_mean.joblib,Model Artifact,1931,Serialized joblib pipeline with metadata and conformal quantiles.,COMPLETE,VERIFIED,VERIFIED
+artifacts/models/A_emissions/ElasticNet.joblib,Model Artifact,2970,Serialized joblib pipeline with metadata and conformal quantiles.,COMPLETE,VERIFIED,VERIFIED
+artifacts/models/A_emissions/HistGradientBoosting.joblib,Model Artifact,708678,Serialized joblib pipeline with metadata and conformal quantiles.,COMPLETE,VERIFIED,VERIFIED
+artifacts/models/A_emissions/LinearRegression.joblib,Model Artifact,2717,Serialized joblib pipeline with metadata and conformal quantiles.,COMPLETE,VERIFIED,VERIFIED
+artifacts/models/A_emissions/RandomForest.joblib,Model Artifact,58698340,Serialized joblib pipeline with metadata and conformal quantiles.,COMPLETE,VERIFIED,VERIFIED
+artifacts/models/A_emissions/Ridge.joblib,Model Artifact,2589,Serialized joblib pipeline with metadata and conformal quantiles.,COMPLETE,VERIFIED,VERIFIED
+artifacts/models/A_emissions/XGBoost.joblib,Model Artifact,731681,Serialized joblib pipeline with metadata and conformal quantiles.,COMPLETE,VERIFIED,VERIFIED
+artifacts/models/B_joint/Dummy_mean.joblib,Model Artifact,2112,Serialized joblib pipeline with metadata and conformal quantiles.,COMPLETE,VERIFIED,VERIFIED
+artifacts/models/B_joint/ElasticNet.joblib,Model Artifact,3271,Serialized joblib pipeline with metadata and conformal quantiles.,COMPLETE,VERIFIED,VERIFIED
+artifacts/models/B_joint/HistGradientBoosting.joblib,Model Artifact,1055385,Serialized joblib pipeline with metadata and conformal quantiles.,COMPLETE,VERIFIED,VERIFIED
+artifacts/models/B_joint/LinearRegression.joblib,Model Artifact,2842,Serialized joblib pipeline with metadata and conformal quantiles.,COMPLETE,VERIFIED,VERIFIED
+artifacts/models/B_joint/RandomForest.joblib,Model Artifact,64519407,Serialized joblib pipeline with metadata and conformal quantiles.,COMPLETE,VERIFIED,VERIFIED
+artifacts/models/B_joint/Ridge.joblib,Model Artifact,2730,Serialized joblib pipeline with metadata and conformal quantiles.,COMPLETE,VERIFIED,VERIFIED
+artifacts/models/B_joint/XGBoost.joblib,Model Artifact,1091944,Serialized joblib pipeline with metadata and conformal quantiles.,COMPLETE,VERIFIED,VERIFIED
+catboost_info/catboost_training.json,Project File,9862,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+catboost_info/learn/events.out.tfevents,Project File,4798,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+catboost_info/learn_error.tsv,Project File,1487,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+catboost_info/time_left.tsv,Project File,1105,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+configs/experiments.yaml,Configuration,589,"Project settings, task registry, or logging configuration.",COMPLETE,VERIFIED,VERIFIED
+configs/logging.yaml,Configuration,254,"Project settings, task registry, or logging configuration.",COMPLETE,VERIFIED,VERIFIED
+configs/models.yaml,Configuration,1132,"Project settings, task registry, or logging configuration.",COMPLETE,VERIFIED,VERIFIED
+configs/paths.yaml,Configuration,265,"Project settings, task registry, or logging configuration.",COMPLETE,VERIFIED,VERIFIED
+configs/project.yaml,Configuration,1211,"Project settings, task registry, or logging configuration.",COMPLETE,VERIFIED,VERIFIED
+configs/tasks.json,Configuration,13417,"Project settings, task registry, or logging configuration.",COMPLETE,VERIFIED,VERIFIED
+data/external/.gitkeep,Project File,0,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+data/interim/.gitkeep,Project File,0,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+data/processed/.gitkeep,Processed Data,0,Cleaned master parquet or partition/feature manifest.,COMPLETE,VERIFIED,VERIFIED
+data/processed/cleaned_master.parquet,Processed Data,1489991,Cleaned master parquet or partition/feature manifest.,COMPLETE,VERIFIED,VERIFIED
+data/processed/feature_manifest.json,Processed Data,959,Cleaned master parquet or partition/feature manifest.,COMPLETE,VERIFIED,VERIFIED
+data/processed/split_manifest.json,Processed Data,515,Cleaned master parquet or partition/feature manifest.,COMPLETE,VERIFIED,VERIFIED
+data/raw/.gitkeep,Project File,0,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+data/raw/gt_2011.csv,CSV Dataset,562921,Annual raw sensor readings from UCI Gas Turbine archive.,COMPLETE,VERIFIED,VERIFIED
+data/raw/gt_2012.csv,CSV Dataset,577617,Annual raw sensor readings from UCI Gas Turbine archive.,COMPLETE,VERIFIED,VERIFIED
+data/raw/gt_2013.csv,CSV Dataset,540334,Annual raw sensor readings from UCI Gas Turbine archive.,COMPLETE,VERIFIED,VERIFIED
+data/raw/gt_2014.csv,CSV Dataset,541009,Annual raw sensor readings from UCI Gas Turbine archive.,COMPLETE,VERIFIED,VERIFIED
+data/raw/gt_2015.csv,CSV Dataset,556928,Annual raw sensor readings from UCI Gas Turbine archive.,COMPLETE,VERIFIED,VERIFIED
+docs/DASHBOARD_GUIDE.md,Documentation,2028,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/DATASET_DOCUMENTATION.md,Documentation,4395,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/DATA_PREPROCESSING.md,Documentation,2593,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/DELIVERABLES_MANIFEST.md,Documentation,1101,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/EVALUATION_REPORT.md,Documentation,4345,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/EXPERIMENT_TRACKING.md,Documentation,1841,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/FINAL_INDEPENDENT_AUDIT.md,Documentation,1987,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/IMPLEMENTATION_STATUS.md,Documentation,1797,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/INDEPENDENT_METRIC_VALIDATION.md,Documentation,2828,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/INSTALLATION_GUIDE.md,Documentation,1357,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/KNOWN_LIMITATIONS.md,Documentation,1837,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/METHODOLOGY.md,Documentation,2193,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/MODEL_ARCHITECTURE.md,Documentation,2770,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/NOTEBOOK_GUIDE.md,Documentation,4573,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/NOTEBOOK_VERIFICATION_REPORT.md,Documentation,3806,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/PACKAGE_VALIDATION.md,Documentation,688,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/PROJECT_BLUEPRINT.docx,Documentation,604813,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/PROJECT_BLUEPRINT.md,Documentation,241,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/PROJECT_BLUEPRINT.pdf,Documentation,1008003,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/PROJECT_OVERVIEW.md,Documentation,4701,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/REPOSITORY_AUDIT.md,Documentation,13336,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/WINDOWS_EXECUTION_GUIDE.md,Documentation,1909,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/data_dictionary.md,Documentation,947,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/dataset_audit_report.md,Documentation,2038,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/01_overall_architecture.gv,Documentation,809,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/01_overall_architecture.mmd,Documentation,422,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/01_overall_architecture.png,Documentation,180492,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/01_overall_architecture.svg,Documentation,7473,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/02_ml_workflow.gv,Documentation,802,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/02_ml_workflow.mmd,Documentation,424,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/02_ml_workflow.svg,Documentation,9104,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/03_ingestion.gv,Documentation,632,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/03_ingestion.mmd,Documentation,270,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/03_ingestion.svg,Documentation,4813,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/04_preprocessing.gv,Documentation,700,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/04_preprocessing.mmd,Documentation,326,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/04_preprocessing.svg,Documentation,5653,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/05_eda.gv,Documentation,628,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/05_eda.mmd,Documentation,270,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/05_eda.svg,Documentation,5859,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/06_features.gv,Documentation,625,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/06_features.mmd,Documentation,264,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/06_features.svg,Documentation,5187,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/07_splitting.gv,Documentation,903,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/07_splitting.mmd,Documentation,497,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/07_splitting.png,Documentation,105963,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/07_splitting.svg,Documentation,11705,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/08_model_training.gv,Documentation,642,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/08_model_training.mmd,Documentation,280,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/08_model_training.svg,Documentation,5721,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/09_automl.gv,Documentation,625,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/09_automl.mmd,Documentation,256,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/09_automl.png,Documentation,93069,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/09_automl.svg,Documentation,5253,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/10_ensemble.gv,Documentation,624,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/10_ensemble.mmd,Documentation,261,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/10_ensemble.svg,Documentation,4914,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/11_evaluation.gv,Documentation,697,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/11_evaluation.mmd,Documentation,335,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/11_evaluation.svg,Documentation,6691,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/12_xai.gv,Documentation,591,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/12_xai.mmd,Documentation,244,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/12_xai.svg,Documentation,5699,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/13_application.gv,Documentation,721,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/13_application.mmd,Documentation,347,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/13_application.png,Documentation,119357,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/13_application.svg,Documentation,6972,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/14_tracker.gv,Documentation,664,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/14_tracker.mmd,Documentation,286,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/14_tracker.png,Documentation,96660,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/14_tracker.svg,Documentation,5793,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/15_roadmap.gv,Documentation,684,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/15_roadmap.mmd,Documentation,325,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/15_roadmap.svg,Documentation,4963,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/diagrams/README.md,Documentation,362,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/example_progress_report.md,Documentation,3482,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/final_research_report.docx,Documentation,604813,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/final_research_report.pdf,Documentation,1008003,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+docs/problem_definition.md,Documentation,801,"Technical guide, methodology, architecture, or report.",COMPLETE,VERIFIED,VERIFIED
+experiments/.gitkeep,Experiment Table,0,Saved experiment metrics or optimization trials CSV.,COMPLETE,VERIFIED,VERIFIED
+experiments/advanced_model_metrics.csv,Experiment Table,892,Saved experiment metrics or optimization trials CSV.,COMPLETE,VERIFIED,VERIFIED
+experiments/automl_summary.json,Experiment Table,158,Saved experiment metrics or optimization trials CSV.,COMPLETE,VERIFIED,VERIFIED
+experiments/baseline_metrics.csv,Experiment Table,962,Saved experiment metrics or optimization trials CSV.,COMPLETE,VERIFIED,VERIFIED
+experiments/ensemble_comparison.csv,Experiment Table,429,Saved experiment metrics or optimization trials CSV.,COMPLETE,VERIFIED,VERIFIED
+experiments/optuna_trials.csv,Experiment Table,1386,Saved experiment metrics or optimization trials CSV.,COMPLETE,VERIFIED,VERIFIED
+experiments/progress_state.json,Experiment Table,15723,Saved experiment metrics or optimization trials CSV.,COMPLETE,VERIFIED,VERIFIED
+experiments/uncertainty_metrics.csv,Experiment Table,288,Saved experiment metrics or optimization trials CSV.,COMPLETE,VERIFIED,VERIFIED
+logs/.gitkeep,Project File,0,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+logs/project.log,Project File,198,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+models/.gitkeep,Project File,0,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+models/A_emissions/Dummy_mean.joblib,Project File,1931,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+models/A_emissions/ElasticNet.joblib,Project File,2970,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+models/A_emissions/HistGradientBoosting.joblib,Project File,708678,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+models/A_emissions/LinearRegression.joblib,Project File,2717,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+models/A_emissions/RandomForest.joblib,Project File,58698340,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+models/A_emissions/Ridge.joblib,Project File,2589,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+models/A_emissions/XGBoost.joblib,Project File,731681,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+models/B_joint/Dummy_mean.joblib,Project File,2112,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+models/B_joint/ElasticNet.joblib,Project File,3271,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+models/B_joint/HistGradientBoosting.joblib,Project File,1055385,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+models/B_joint/LinearRegression.joblib,Project File,2842,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+models/B_joint/RandomForest.joblib,Project File,64519407,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+models/B_joint/Ridge.joblib,Project File,2730,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+models/B_joint/XGBoost.joblib,Project File,1091944,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+models/final_model.joblib,Project File,1785833,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+models/model_metadata.json,Project File,407,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+notebooks/00_environment_setup.ipynb,Jupyter Notebook,12003,Research computational notebook for phase 00.,COMPLETE,EXECUTED,VERIFIED
+notebooks/01_dataset_inventory_and_audit.ipynb,Jupyter Notebook,10320,Research computational notebook for phase 01.,COMPLETE,EXECUTED,VERIFIED
+notebooks/02_data_understanding.ipynb,Jupyter Notebook,9675,Research computational notebook for phase 02.,COMPLETE,EXECUTED,VERIFIED
+notebooks/03_exploratory_data_analysis.ipynb,Jupyter Notebook,129261,Research computational notebook for phase 03.,COMPLETE,EXECUTED,VERIFIED
+notebooks/04_data_quality_and_cleaning.ipynb,Jupyter Notebook,5167,Research computational notebook for phase 04.,COMPLETE,EXECUTED,VERIFIED
+notebooks/05_feature_engineering.ipynb,Jupyter Notebook,4337,Research computational notebook for phase 05.,COMPLETE,EXECUTED,VERIFIED
+notebooks/06_feature_selection.ipynb,Jupyter Notebook,4025,Research computational notebook for phase 06.,COMPLETE,EXECUTED,VERIFIED
+notebooks/07_train_validation_test_split.ipynb,Jupyter Notebook,4803,Research computational notebook for phase 07.,COMPLETE,EXECUTED,VERIFIED
+notebooks/08_baseline_models.ipynb,Jupyter Notebook,4578,Research computational notebook for phase 08.,COMPLETE,EXECUTED,VERIFIED
+notebooks/09_advanced_ml_models.ipynb,Jupyter Notebook,4897,Research computational notebook for phase 09.,COMPLETE,EXECUTED,VERIFIED
+notebooks/10_hyperparameter_optimization.ipynb,Jupyter Notebook,4134,Research computational notebook for phase 10.,COMPLETE,EXECUTED,VERIFIED
+notebooks/11_automl_experiments.ipynb,Jupyter Notebook,4330,Research computational notebook for phase 11.,COMPLETE,EXECUTED,VERIFIED
+notebooks/12_ensemble_learning.ipynb,Jupyter Notebook,4447,Research computational notebook for phase 12.,COMPLETE,EXECUTED,VERIFIED
+notebooks/13_model_explainability.ipynb,Jupyter Notebook,261798,Research computational notebook for phase 13.,COMPLETE,EXECUTED,VERIFIED
+notebooks/14_model_evaluation.ipynb,Jupyter Notebook,4729,Research computational notebook for phase 14.,COMPLETE,EXECUTED,VERIFIED
+notebooks/15_error_and_robustness_analysis.ipynb,Jupyter Notebook,4537,Research computational notebook for phase 15.,COMPLETE,EXECUTED,VERIFIED
+notebooks/16_final_model_training_and_saving.ipynb,Jupyter Notebook,4896,Research computational notebook for phase 16.,COMPLETE,EXECUTED,VERIFIED
+notebooks/17_final_results_and_reproducibility.ipynb,Jupyter Notebook,5249,Research computational notebook for phase 17.,COMPLETE,EXECUTED,VERIFIED
+notebooks/18_reproducible_pipeline.ipynb,Jupyter Notebook,4482,Research computational notebook for phase 18.,COMPLETE,EXECUTED,VERIFIED
+outputs/figures/.gitkeep,Visualization,0,Publication-quality evaluation or EDA figure (PNG).,COMPLETE,VERIFIED,VERIFIED
+outputs/figures/annual_emission_trends.png,Visualization,101336,Publication-quality evaluation or EDA figure (PNG).,COMPLETE,VERIFIED,VERIFIED
+outputs/figures/correlation_heatmap.png,Visualization,227798,Publication-quality evaluation or EDA figure (PNG).,COMPLETE,VERIFIED,VERIFIED
+outputs/figures/model_comparison_rmse.png,Visualization,84828,Publication-quality evaluation or EDA figure (PNG).,COMPLETE,VERIFIED,VERIFIED
+outputs/figures/project_progress.png,Visualization,76538,Publication-quality evaluation or EDA figure (PNG).,COMPLETE,VERIFIED,VERIFIED
+outputs/figures/shap_summary_co.png,Visualization,116153,Publication-quality evaluation or EDA figure (PNG).,COMPLETE,VERIFIED,VERIFIED
+outputs/figures/shap_summary_nox.png,Visualization,150467,Publication-quality evaluation or EDA figure (PNG).,COMPLETE,VERIFIED,VERIFIED
+outputs/figures/target_distributions.png,Visualization,123075,Publication-quality evaluation or EDA figure (PNG).,COMPLETE,VERIFIED,VERIFIED
+outputs/metadata/dataset_manifest.json,Project File,1780,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+outputs/metadata/notebook_execution_registry.csv,Project File,2693,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+outputs/reports/.gitkeep,Report,0,JSON or Markdown evaluation summary or audit report.,COMPLETE,VERIFIED,VERIFIED
+outputs/reports/chronology_audit.json,Report,293,JSON or Markdown evaluation summary or audit report.,COMPLETE,VERIFIED,VERIFIED
+outputs/reports/cleaning_log.json,Report,3390,JSON or Markdown evaluation summary or audit report.,COMPLETE,VERIFIED,VERIFIED
+outputs/reports/data_quality_report.json,Report,8830,JSON or Markdown evaluation summary or audit report.,COMPLETE,VERIFIED,VERIFIED
+outputs/reports/dataset_inventory.csv,Report,626,JSON or Markdown evaluation summary or audit report.,COMPLETE,VERIFIED,VERIFIED
+outputs/reports/environment_check.json,Report,930,JSON or Markdown evaluation summary or audit report.,COMPLETE,VERIFIED,VERIFIED
+outputs/reports/final_evaluation.md,Report,519,JSON or Markdown evaluation summary or audit report.,COMPLETE,VERIFIED,VERIFIED
+outputs/reports/progress_report.md,Report,3397,JSON or Markdown evaluation summary or audit report.,COMPLETE,VERIFIED,VERIFIED
+outputs/reports/progress_summary.json,Report,2340,JSON or Markdown evaluation summary or audit report.,COMPLETE,VERIFIED,VERIFIED
+outputs/reports/reproducibility.json,Report,215,JSON or Markdown evaluation summary or audit report.,COMPLETE,VERIFIED,VERIFIED
+outputs/reports/robustness_report.md,Report,626,JSON or Markdown evaluation summary or audit report.,COMPLETE,VERIFIED,VERIFIED
+outputs/reports/run_summary.json,Report,470,JSON or Markdown evaluation summary or audit report.,COMPLETE,VERIFIED,VERIFIED
+outputs/reports/schema_audit.json,Report,2924,JSON or Markdown evaluation summary or audit report.,COMPLETE,VERIFIED,VERIFIED
+outputs/reports/test_execution_report.md,Report,2793,JSON or Markdown evaluation summary or audit report.,COMPLETE,VERIFIED,VERIFIED
+outputs/reports/test_results.txt,Report,2284,JSON or Markdown evaluation summary or audit report.,COMPLETE,VERIFIED,VERIFIED
+outputs/repository_inventory.csv,Project File,33836,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+outputs/tables/.gitkeep,Data Table,0,"Exported metrics, inventory, or diagnostic CSV table.",COMPLETE,VERIFIED,VERIFIED
+outputs/tables/annual_summary.csv,Data Table,769,"Exported metrics, inventory, or diagnostic CSV table.",COMPLETE,VERIFIED,VERIFIED
+outputs/tables/annual_target_summary.csv,Data Table,439,"Exported metrics, inventory, or diagnostic CSV table.",COMPLETE,VERIFIED,VERIFIED
+outputs/tables/data_quality_report.csv,Data Table,812,"Exported metrics, inventory, or diagnostic CSV table.",COMPLETE,VERIFIED,VERIFIED
+outputs/tables/dataset_summary.csv,Data Table,1107,"Exported metrics, inventory, or diagnostic CSV table.",COMPLETE,VERIFIED,VERIFIED
+outputs/tables/development_temporal_cv.csv,Data Table,6533,"Exported metrics, inventory, or diagnostic CSV table.",COMPLETE,VERIFIED,VERIFIED
+outputs/tables/duplicate_audit.csv,Data Table,133,"Exported metrics, inventory, or diagnostic CSV table.",COMPLETE,VERIFIED,VERIFIED
+outputs/tables/feature_diagnostics.csv,Data Table,206,"Exported metrics, inventory, or diagnostic CSV table.",COMPLETE,VERIFIED,VERIFIED
+outputs/tables/locked_test_metrics.csv,Data Table,6903,"Exported metrics, inventory, or diagnostic CSV table.",COMPLETE,VERIFIED,VERIFIED
+requirements.txt,Documentation,314,Project readme or text documentation.,COMPLETE,VERIFIED,VERIFIED
+scripts/audit_repository_inventory.py,Python Script,6100,"CLI executable runner, synchronizer, or generator.",COMPLETE,EXECUTED,VERIFIED
+scripts/execute_all_notebooks.py,Python Script,2294,"CLI executable runner, synchronizer, or generator.",COMPLETE,EXECUTED,VERIFIED
+scripts/generate_all_notebooks.py,Python Script,52448,"CLI executable runner, synchronizer, or generator.",COMPLETE,EXECUTED,VERIFIED
+scripts/generate_dataset_manifest.py,Python Script,3995,"CLI executable runner, synchronizer, or generator.",COMPLETE,EXECUTED,VERIFIED
+scripts/generate_notebook_execution_registry.py,Python Script,3926,"CLI executable runner, synchronizer, or generator.",COMPLETE,EXECUTED,VERIFIED
+scripts/progress_report.py,Python Script,459,"CLI executable runner, synchronizer, or generator.",COMPLETE,EXECUTED,VERIFIED
+scripts/run_project.py,Python Script,404,"CLI executable runner, synchronizer, or generator.",COMPLETE,EXECUTED,VERIFIED
+scripts/sync_tasks.py,Python Script,1395,"CLI executable runner, synchronizer, or generator.",COMPLETE,EXECUTED,VERIFIED
+src/__init__.py,Project File,0,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+src/data/__init__.py,Python Module,0,"Data loading, schema validation, cleaning, or splitting.",COMPLETE,EXECUTED,VERIFIED
+src/data/cleaning.py,Python Module,4066,"Data loading, schema validation, cleaning, or splitting.",COMPLETE,EXECUTED,VERIFIED
+src/data/load_data.py,Python Module,1011,"Data loading, schema validation, cleaning, or splitting.",COMPLETE,EXECUTED,VERIFIED
+src/data/loader.py,Python Module,3446,"Data loading, schema validation, cleaning, or splitting.",COMPLETE,EXECUTED,VERIFIED
+src/data/preprocessing.py,Python Module,1533,"Data loading, schema validation, cleaning, or splitting.",COMPLETE,EXECUTED,VERIFIED
+src/data/quality_report.py,Python Module,2301,"Data loading, schema validation, cleaning, or splitting.",COMPLETE,EXECUTED,VERIFIED
+src/data/schema.py,Python Module,722,"Data loading, schema validation, cleaning, or splitting.",COMPLETE,EXECUTED,VERIFIED
+src/data/splitting.py,Python Module,3434,"Data loading, schema validation, cleaning, or splitting.",COMPLETE,EXECUTED,VERIFIED
+src/data/validation.py,Python Module,3932,"Data loading, schema validation, cleaning, or splitting.",COMPLETE,EXECUTED,VERIFIED
+src/evaluation/__init__.py,Python Module,0,"Regression metrics, conformal intervals, error diagnostics.",COMPLETE,EXECUTED,VERIFIED
+src/evaluation/benchmark.py,Python Module,7652,"Regression metrics, conformal intervals, error diagnostics.",COMPLETE,EXECUTED,VERIFIED
+src/evaluation/conformal.py,Python Module,743,"Regression metrics, conformal intervals, error diagnostics.",COMPLETE,EXECUTED,VERIFIED
+src/evaluation/error_analysis.py,Python Module,1713,"Regression metrics, conformal intervals, error diagnostics.",COMPLETE,EXECUTED,VERIFIED
+src/evaluation/evaluator.py,Python Module,2309,"Regression metrics, conformal intervals, error diagnostics.",COMPLETE,EXECUTED,VERIFIED
+src/evaluation/metrics.py,Python Module,2625,"Regression metrics, conformal intervals, error diagnostics.",COMPLETE,EXECUTED,VERIFIED
+src/evaluation/model_comparison.py,Python Module,1130,"Regression metrics, conformal intervals, error diagnostics.",COMPLETE,EXECUTED,VERIFIED
+src/evaluation/report_generator.py,Python Module,1310,"Regression metrics, conformal intervals, error diagnostics.",COMPLETE,EXECUTED,VERIFIED
+src/evaluation/residual_analysis.py,Python Module,1890,"Regression metrics, conformal intervals, error diagnostics.",COMPLETE,EXECUTED,VERIFIED
+src/explainability/explanation_report.py,Python Module,1714,"Feature importance, SHAP, and partial dependence.",COMPLETE,EXECUTED,VERIFIED
+src/explainability/importance.py,Python Module,3357,"Feature importance, SHAP, and partial dependence.",COMPLETE,EXECUTED,VERIFIED
+src/explainability/partial_dependence.py,Python Module,1259,"Feature importance, SHAP, and partial dependence.",COMPLETE,EXECUTED,VERIFIED
+src/explainability/shap_analysis.py,Python Module,2074,"Feature importance, SHAP, and partial dependence.",COMPLETE,EXECUTED,VERIFIED
+src/features/__init__.py,Python Module,0,Thermodynamic feature engineering and Brayton cycle ratios.,COMPLETE,EXECUTED,VERIFIED
+src/features/build_features.py,Python Module,531,Thermodynamic feature engineering and Brayton cycle ratios.,COMPLETE,EXECUTED,VERIFIED
+src/features/feature_engineering.py,Python Module,3199,Thermodynamic feature engineering and Brayton cycle ratios.,COMPLETE,EXECUTED,VERIFIED
+src/models/__init__.py,Python Module,0,"Model family wrappers, factory, or registry.",COMPLETE,EXECUTED,VERIFIED
+src/models/baselines.py,Python Module,1121,"Model family wrappers, factory, or registry.",COMPLETE,EXECUTED,VERIFIED
+src/models/boosting_models.py,Python Module,1531,"Model family wrappers, factory, or registry.",COMPLETE,EXECUTED,VERIFIED
+src/models/linear_models.py,Python Module,1314,"Model family wrappers, factory, or registry.",COMPLETE,EXECUTED,VERIFIED
+src/models/model_factory.py,Python Module,3438,"Model family wrappers, factory, or registry.",COMPLETE,EXECUTED,VERIFIED
+src/models/model_registry.py,Python Module,1111,"Model family wrappers, factory, or registry.",COMPLETE,EXECUTED,VERIFIED
+src/models/registry.py,Python Module,245,"Model family wrappers, factory, or registry.",COMPLETE,EXECUTED,VERIFIED
+src/models/svr_models.py,Python Module,1220,"Model family wrappers, factory, or registry.",COMPLETE,EXECUTED,VERIFIED
+src/models/tree_models.py,Python Module,3206,"Model family wrappers, factory, or registry.",COMPLETE,EXECUTED,VERIFIED
+src/optimization/search_spaces.py,Python Module,2091,Hyperparameter optimization and search spaces.,COMPLETE,EXECUTED,VERIFIED
+src/optimization/tuner.py,Python Module,2957,Hyperparameter optimization and search spaces.,COMPLETE,EXECUTED,VERIFIED
+src/pipeline/__init__.py,Project File,0,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+src/pipeline/run_experiments.py,Project File,8994,General repository artifact.,COMPLETE,VERIFIED,VERIFIED
+src/utils/__init__.py,Python Module,0,Task progress tracking and persistence.,COMPLETE,EXECUTED,VERIFIED
+src/utils/tracker.py,Python Module,7577,Task progress tracking and persistence.,COMPLETE,EXECUTED,VERIFIED
+src/visualization/eda_plots.py,Python Module,3333,Publication-quality plotting and visualization routines.,COMPLETE,EXECUTED,VERIFIED
+src/visualization/model_plots.py,Python Module,4921,Publication-quality plotting and visualization routines.,COMPLETE,EXECUTED,VERIFIED
+tests/__init__.py,Test Script,0,Automated unit/integration pytest test case.,COMPLETE,EXECUTED,VERIFIED
+tests/test_app_smoke.py,Test Script,953,Automated unit/integration pytest test case.,COMPLETE,EXECUTED,VERIFIED
+tests/test_data.py,Test Script,1357,Automated unit/integration pytest test case.,COMPLETE,EXECUTED,VERIFIED
+tests/test_evaluation.py,Test Script,1310,Automated unit/integration pytest test case.,COMPLETE,EXECUTED,VERIFIED
+tests/test_features.py,Test Script,1512,Automated unit/integration pytest test case.,COMPLETE,EXECUTED,VERIFIED
+tests/test_models.py,Test Script,995,Automated unit/integration pytest test case.,COMPLETE,EXECUTED,VERIFIED
+tests/test_preprocessing.py,Test Script,1168,Automated unit/integration pytest test case.,COMPLETE,EXECUTED,VERIFIED
+tests/test_schema.py,Test Script,408,Automated unit/integration pytest test case.,COMPLETE,EXECUTED,VERIFIED
+tests/test_tracker.py,Test Script,334,Automated unit/integration pytest test case.,COMPLETE,EXECUTED,VERIFIED

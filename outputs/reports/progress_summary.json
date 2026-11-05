@@ -1,0 +1,125 @@
+{
+  "overall_percent": 0.0,
+  "counts": {
+    "IN_PROGRESS": 0,
+    "NOT_STARTED": 25,
+    "COMPLETED": 0,
+    "BLOCKED": 0,
+    "FAILED": 0
+  },
+  "total": 25,
+  "completed": 0,
+  "pending": 25,
+  "blocked": 0,
+  "failed": 0,
+  "current_phase": "Initialization",
+  "next_task": {
+    "task_id": "P01",
+    "phase": "Initialization",
+    "title": "Create environment and install pinned dependencies",
+    "status": "NOT_STARTED",
+    "start_date": null,
+    "last_updated": null,
+    "dependencies": [],
+    "notebook": "00_environment_setup.ipynb",
+    "expected_outputs": [
+      "outputs/reports/environment_check.json"
+    ],
+    "actual_outputs": [],
+    "validation_status": "NOT_RUN",
+    "errors_or_blockers": "",
+    "notes": ""
+  },
+  "phases": {
+    "Initialization": {
+      "completed": 0,
+      "total": 2,
+      "percent": 0.0
+    },
+    "Dataset audit": {
+      "completed": 0,
+      "total": 4,
+      "percent": 0.0
+    },
+    "EDA": {
+      "completed": 0,
+      "total": 2,
+      "percent": 0.0
+    },
+    "Cleaning": {
+      "completed": 0,
+      "total": 1,
+      "percent": 0.0
+    },
+    "Features": {
+      "completed": 0,
+      "total": 2,
+      "percent": 0.0
+    },
+    "Splitting": {
+      "completed": 0,
+      "total": 1,
+      "percent": 0.0
+    },
+    "Baselines": {
+      "completed": 0,
+      "total": 1,
+      "percent": 0.0
+    },
+    "Advanced ML": {
+      "completed": 0,
+      "total": 1,
+      "percent": 0.0
+    },
+    "Optimization": {
+      "completed": 0,
+      "total": 1,
+      "percent": 0.0
+    },
+    "AutoML": {
+      "completed": 0,
+      "total": 1,
+      "percent": 0.0
+    },
+    "Ensembling": {
+      "completed": 0,
+      "total": 1,
+      "percent": 0.0
+    },
+    "Explainability": {
+      "completed": 0,
+      "total": 1,
+      "percent": 0.0
+    },
+    "Uncertainty": {
+      "completed": 0,
+      "total": 1,
+      "percent": 0.0
+    },
+    "Robustness": {
+      "completed": 0,
+      "total": 1,
+      "percent": 0.0
+    },
+    "Final model": {
+      "completed": 0,
+      "total": 2,
+      "percent": 0.0
+    },
+    "Application": {
+      "completed": 0,
+      "total": 1,
+      "percent": 0.0
+    },
+    "QA": {
+      "completed": 0,
+      "total": 1,
+      "percent": 0.0
+    },
+    "Documentation": {
+      "completed": 0,
+      "total": 1,
+      "percent": 0.0
+    }
+  }
+}

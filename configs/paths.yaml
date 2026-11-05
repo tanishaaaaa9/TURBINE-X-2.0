@@ -1,0 +1,10 @@
+# TURBINE-X Paths Configuration
+raw_data_dir: "data/raw"
+processed_data_dir: "data/processed"
+models_dir: "artifacts/models"
+metrics_dir: "outputs/tables"
+reports_dir: "outputs/reports"
+figures_dir: "outputs/figures"
+experiments_dir: "experiments"
+logs_dir: "logs"
+

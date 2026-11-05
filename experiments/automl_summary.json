@@ -1,0 +1,6 @@
+{
+  "best_estimator": "lgbm",
+  "best_loss_rmse": 1.2299791162019165,
+  "time_to_find_best_s": 13.270406723022461,
+  "total_time_s": 15.221664428710938
+}
